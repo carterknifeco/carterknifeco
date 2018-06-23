@@ -1,12 +1,12 @@
 <template>
-    <div class="overlay" @click="growImage()">
-        <img class="card-img" :src="image" alt="a picture of a custom made knife">
-        <div class="large-overlay" :class="{grow : grow}">
-            <div class="image-holder">
-                <img class="card-img" :src="image" img-alt="a picture of a custom made knife">
-            </div>
-        </div>
+  <div class="overlay" @click="growImage()">
+    <img class="card-img" :src="image" alt="a picture of a custom made knife">
+    <div class="large-overlay" :class="{grow : grow}">
+      <div class="image-holder">
+        <img class="card-img" :src="image" img-alt="a picture of a custom made knife">
+      </div>
     </div>
+  </div>
 </template>
 
 
@@ -71,7 +71,7 @@ export default {
     @media (orientation: landscape) {
       width: auto;
       height: 90%;
-      height: calc(100vh - 114px);
+      height: 100vh;
     }
   }
   .close-icon {

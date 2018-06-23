@@ -92,7 +92,7 @@ export default {
     @media (orientation: landscape) {
       width: auto;
       height: 90%;
-      height: calc(100vh - 114px);
+      height: 100vh;
     }
   }
   .close-icon {
