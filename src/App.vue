@@ -177,7 +177,7 @@ body {
       margin: auto 0 2rem;
       width: 100%;
     }
-    .btn {
+    .btn:not(.card-btn) {
       margin-top: auto;
       text-transform: capitalize;
       transition: all 0.3s cubic-bezier(0.68, -0.1, 0.265, 1.55);
@@ -199,7 +199,7 @@ body {
       box-shadow: 1px 8px 8px 0 rgba(0, 0, 0, 0.09),
         0 9px 7px -4px rgba(0, 0, 0, 0.12), 1px 7px 11px 0 rgba(0, 0, 0, 0.06);
     }
-    .btn.btn-primary {
+    .btn.btn-primary:not(.card-btn) {
       background-color: #0069d9;
       color: white;
       background-image: none;
