@@ -32,7 +32,7 @@
             <div class="card mb-3" @click="toggleInfoWindow(m,i)">
               <div class="card-header">
                 <i class="text-danger fa fa-map-marker mr-3 " aria-hidden="true "></i>
-                <b>{{m.business}}</b>
+                {{m.business}}
               </div>
               <ul class="list-group list-group-flush ">
                 <li class="list-group-item ">

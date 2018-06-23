@@ -82,7 +82,7 @@ body {
     min-height: 100vh;
   }
   p {
-    font-family: "Work Sans", "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
     text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
   }
@@ -164,7 +164,7 @@ body {
     color: white;
     transition: all 0.3s cubic-bezier(0.68, -0.1, 0.265, 1.55);
     font-size: 1.2rem;
-    margin-top: -1px; // font-weight: bold;
+    margin-top: -1px; //font-weight: bold;
   }
   .card-body {
     padding-top: 0;
@@ -181,7 +181,7 @@ body {
       margin-top: auto;
       text-transform: capitalize;
       transition: all 0.3s cubic-bezier(0.68, -0.1, 0.265, 1.55);
-      font-weight: bold;
+      //font-weight: bold;
       @media (min-width: 768px) {
         color: #007bff;
         background-color: #fff;

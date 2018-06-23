@@ -432,7 +432,7 @@ i {
     font-family: "Open Sans";
     text-transform: capitalize;
     font-size: 0.85rem;
-    font-weight: bold;
+    //font-weight: bold;
     transform: none;
     text-align: right;
     @media (min-width: 769px) {

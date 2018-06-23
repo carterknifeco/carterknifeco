@@ -331,7 +331,7 @@ export default {
 <style lang="scss" scoped>
 .form-holder {
   label {
-    font-weight: bold;
+    //font-weight: bold;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
@@ -342,7 +342,7 @@ export default {
   input,
   select {
     padding-top: 1rem;
-    font-weight: bold;
+    //font-weight: bold;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05),
       0 3px 7px -2px rgba(0, 0, 0, 0.08), 0 1px 12px 0 rgba(0, 0, 0, 0.09);
     max-height: calc(100vh - 230px);
@@ -421,10 +421,10 @@ export default {
   width: 100%;
 }
 .col-form-label > span {
-  font-weight: bold;
+  //font-weight: bold;
 }
 h4 {
-  font-weight: bold;
+  //font-weight: bold;
 }
 .sticky {
   @media screen and (min-width: 768px) {
