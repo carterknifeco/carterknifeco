@@ -1,11 +1,12 @@
 <template>
-  <b-card v-if="!card.for_sale" :img-src="card.image" img-fluid alt="a picture of a custom made knife" img-top>
-    <blockquote class="card-blockquote">
-      <p class="card-text">
-        {{card.content}}
-      </p>
-    </blockquote>
-  </b-card>
+  <div v-if="!card.for_sale" class="card">
+    <app-knife-image :image="card.image"></app-knife-image>
+    <div class="card-body">
+      <blockquote>
+        <p class="card-text">{{card.content}}</p>
+      </blockquote>
+    </div>
+  </div>
   <div v-else class="card bg-dark text-white">
     <div class="card-header">
       <h3 class="text-warning">For Sale
@@ -25,7 +26,9 @@
   </div>
 </template>
 <script>
+import knifeImage from "../molecules/KnifeImage.vue";
 export default {
+  components: { appKnifeImage: knifeImage },
   props: ["card"],
   computed: {
     cardBody() {

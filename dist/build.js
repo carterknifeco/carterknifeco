@@ -18750,10 +18750,10 @@ var busFront = __webpack_require__(314);
 var busInterior = __webpack_require__(161);
 var busGrind = __webpack_require__(160);
 var drawer = __webpack_require__(315);
-var busBikes = __webpack_require__(157);
+var busBikes = __webpack_require__(158);
 var flag = __webpack_require__(316);
 var knives = __webpack_require__(156);
-var knives2 = __webpack_require__(158);
+var knives2 = __webpack_require__(159);
 var knifeInHand = __webpack_require__(162);
 var handyMan = __webpack_require__(317);
 var knivesRaw = __webpack_require__(324);
@@ -31308,18 +31308,6 @@ module.exports = __webpack_require__.p + "knives.jpg?33f0c5166c7ad72f528b41305b1
 
 /***/ }),
 /* 157 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "busBikes.jpg?751713554578494765d8446e94780d53";
-
-/***/ }),
-/* 158 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "knives2.jpg?3d1335e0cc42911c555d2cfa9d521ea1";
-
-/***/ }),
-/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = function escape(url) {
@@ -31339,6 +31327,18 @@ module.exports = function escape(url) {
     return url
 }
 
+
+/***/ }),
+/* 158 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "busBikes.jpg?751713554578494765d8446e94780d53";
+
+/***/ }),
+/* 159 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "knives2.jpg?3d1335e0cc42911c555d2cfa9d521ea1";
 
 /***/ }),
 /* 160 */
@@ -42249,7 +42249,7 @@ exports.push([module.i, "footer[data-v-3b77a404]{margin-top:auto}footer hr[data-
 /* 301 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(159);
+var escape = __webpack_require__(157);
 exports = module.exports = __webpack_require__(6)(false);
 // imports
 

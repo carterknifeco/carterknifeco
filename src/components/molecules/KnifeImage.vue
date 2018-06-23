@@ -1,44 +1,24 @@
 <template>
-  <div>
-    <div v-for="(option, index) in step.options" :key="index" class="overlay" @click="growImage()" :class="step.selected == option.value ? 'showMe' : ''">
-      <img class="card-img" :src="option.src ? `/dist/${option.src}` : `/dist/${option.value}.jpg`" :img-alt="step.selected">
-      <div class="large-overlay" :class="{grow : growMe == true}">
-        <div class="image-holder">
-          <img class="card-img" :src="option.src ? `/dist/${option.src}` : `/dist/${option.value}.jpg`" :img-alt="option.value">
+    <div class="overlay" @click="growImage()">
+        <img class="card-img" :src="image" alt="a picture of a custom made knife">
+        <div class="large-overlay" :class="{grow : grow}">
+            <div class="image-holder">
+                <img class="card-img" :src="image" img-alt="a picture of a custom made knife">
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </template>
 
 
 <script>
-var cursor = require("../../assets/x.svg");
-var cursor2 = require("../../assets/x.png");
 export default {
-  props: ["step"],
+  props: ["image"],
   data() {
     return {
-      grow: this.step.grow,
-      cursor: cursor,
-      customCursor: {
-        cursor: `url(${cursor}),url(${cursor2}), pointer`
-      }
+      grow: false
     };
   },
-  computed: {
-    growMe() {
-      let growMe = this.grow;
-      return growMe;
-    }
-  },
   methods: {
-    getImageSrc(image) {
-      return `/dist/${image}.jpg`;
-    },
-    getThumbSrc(image) {
-      return `/dist/thumbs - ${image}.jpg`;
-    },
     growImage() {
       this.grow = !this.grow;
     }
@@ -47,7 +27,6 @@ export default {
 </script>
 <style scoped lang="scss">
 .overlay {
-  display: none;
   &.showMe {
     display: block;
   }

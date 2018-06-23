@@ -3,13 +3,6 @@
     <div class="form-holder">
       <b-row>
         <div class="col-md-6 col-lg-8 row top-spacing">
-          <!-- <b-col class="col-12">
-            <h2 class="price">Custom Knife:
-              <span class="text-danger">$320
-                <small>.00</small>
-              </span>
-            </h2>
-          </b-col> -->
           <b-col v-for="(step, index) in buildSteps" :key="index" class="col-12 col-md-12 col-lg-6 margin-top">
             <div class="card" @click="openSelection">
               <h4 class="card-title-strip mb-0">{{step.title}}</h4>
@@ -285,8 +278,9 @@ export default {
         this.user.state.length > 0 &&
         this.user.zip.length > 0
       ) {
-        allOrderItems += `\n \nTo be shipped to:\n${this.user.address}\n${this
-          .user.city}, ${this.user.state}\n${this.user.zip}`;
+        allOrderItems += `\n \nTo be shipped to:\n${this.user.address}\n${
+          this.user.city
+        }, ${this.user.state}\n${this.user.zip}`;
       }
       return allOrderItems;
     },
@@ -313,16 +307,17 @@ export default {
         this.user.state.length > 0 &&
         this.user.zip.length > 0
       ) {
-        allOrderItems += `%0D%0A %0D%0ATo be shipped to:%0D%0A${this.user
-          .address}%0D%0A${this.user.city}, ${this.user.state}%0D%0A${this.user
-          .zip}`;
+        allOrderItems += `%0D%0A %0D%0ATo be shipped to:%0D%0A${
+          this.user.address
+        }%0D%0A${this.user.city}, ${this.user.state}%0D%0A${this.user.zip}`;
       }
       allOrderItems += "%0D%0A" + "%0D%0A";
       return allOrderItems;
     },
     mailToBody() {
-      let mailToHref = `mailto:carterknifeco@gmail.com?subject=Custom knife order from carterknifeco.com&body=${this
-        .totalOrderMailTo}`;
+      let mailToHref = `mailto:carterknifeco@gmail.com?subject=Custom knife order from carterknifeco.com&body=${
+        this.totalOrderMailTo
+      }`;
       return mailToHref;
     }
   }
