@@ -12,7 +12,7 @@
         {{card.content}}
       </p>
     </blockquote>
-    <div slot="footer" class="bg-primary text-white">
+    <div v-if="card.price" slot="footer" class="bg-primary text-white">
       Price: ${{card.price}}
     </div>
   </b-card>

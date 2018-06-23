@@ -155,7 +155,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, ".card[data-v-bfd4176c]{cursor:default;box-shadow:none}.card[data-v-bfd4176c]:hover{transform:none;box-shadow:none}.card-body[data-v-bfd4176c]{min-height:0;padding:1.25rem;padding-bottom:0}", ""]);
+exports.push([module.i, ".card[data-v-ca53e6f0]{cursor:default;box-shadow:none}.card[data-v-ca53e6f0]:hover{transform:none;box-shadow:none}.card-body[data-v-ca53e6f0]{min-height:0;padding:1.25rem;padding-bottom:0}", ""]);
 
 // exports
 
@@ -252,7 +252,7 @@ module.exports = __webpack_require__.p + "9a.jpg?633737a2286b9e38b6ae4291bc4fdf4
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeGrid_vue__ = __webpack_require__(509);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bfd4176c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__ = __webpack_require__(595);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ca53e6f0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__ = __webpack_require__(595);
 function injectStyle (ssrContext) {
   __webpack_require__(606)
 }
@@ -267,12 +267,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-bfd4176c"
+var __vue_scopeId__ = "data-v-ca53e6f0"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeGrid_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bfd4176c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ca53e6f0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -299,7 +299,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (!_vm.card.for_sale)?_c('b-card',{attrs:{"img-src":_vm.card.image,"img-fluid":"","img-alt":"image","img-top":""}},[_c('blockquote',{staticClass:"card-blockquote"},[_c('p',{staticClass:"card-text"},[_vm._v("\n      "+_vm._s(_vm.card.content)+"\n    ")])])]):_c('b-card',{attrs:{"border-variant":"primary","header":"For Sale!","header-bg-variant":"primary","footer-bg-variant":"primary","header-text-variant":"white","img-src":_vm.card.image,"img-fluid":"","img-alt":"image","img-top":""}},[_c('blockquote',{staticClass:"card-blockquote"},[_c('p',{staticClass:"card-text"},[_vm._v("\n      "+_vm._s(_vm.card.content)+"\n    ")])]),_vm._v(" "),_c('div',{staticClass:"bg-primary text-white",attrs:{"slot":"footer"},slot:"footer"},[_vm._v("\n    Price: $"+_vm._s(_vm.card.price)+"\n  ")])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (!_vm.card.for_sale)?_c('b-card',{attrs:{"img-src":_vm.card.image,"img-fluid":"","img-alt":"image","img-top":""}},[_c('blockquote',{staticClass:"card-blockquote"},[_c('p',{staticClass:"card-text"},[_vm._v("\n      "+_vm._s(_vm.card.content)+"\n    ")])])]):_c('b-card',{attrs:{"border-variant":"primary","header":"For Sale!","header-bg-variant":"primary","footer-bg-variant":"primary","header-text-variant":"white","img-src":_vm.card.image,"img-fluid":"","img-alt":"image","img-top":""}},[_c('blockquote',{staticClass:"card-blockquote"},[_c('p',{staticClass:"card-text"},[_vm._v("\n      "+_vm._s(_vm.card.content)+"\n    ")])]),_vm._v(" "),(_vm.card.price)?_c('div',{staticClass:"bg-primary text-white",attrs:{"slot":"footer"},slot:"footer"},[_vm._v("\n    Price: $"+_vm._s(_vm.card.price)+"\n  ")]):_vm._e()])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -330,7 +330,7 @@ var content = __webpack_require__(522);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("e8fb28da", content, true, {});
+var update = __webpack_require__(7)("2f9f06ba", content, true, {});
 
 /***/ }),
 
