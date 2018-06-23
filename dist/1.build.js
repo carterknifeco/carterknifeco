@@ -7,9 +7,9 @@ webpackJsonp([1],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Knives_vue__ = __webpack_require__(500);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_15de73c4_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Knives_vue__ = __webpack_require__(589);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_15de73c4_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Knives_vue__ = __webpack_require__(590);
 function injectStyle (ssrContext) {
-  __webpack_require__(604)
+  __webpack_require__(605)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -197,7 +197,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, ".container-fluid[data-v-15de73c4]{padding-bottom:4rem}", ""]);
+exports.push([module.i, ".card[data-v-0d72d86c]{cursor:default;box-shadow:none}.card h3[data-v-0d72d86c],.card h4[data-v-0d72d86c]{margin:0}.card[data-v-0d72d86c]:hover{transform:none;box-shadow:none}.card-body[data-v-0d72d86c]{min-height:0;padding:1rem 1.25rem;padding-bottom:0}.card-body p[data-v-0d72d86c]{font-family:Open Sans;margin-bottom:0}.card-img[data-v-0d72d86c]{border-radius:0}.card-header[data-v-0d72d86c]{display:flex;justify-content:space-between;align-items:center}", ""]);
 
 // exports
 
@@ -212,7 +212,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, ".card[data-v-2e0aed88]{cursor:default;box-shadow:none}.card h3[data-v-2e0aed88],.card h4[data-v-2e0aed88]{margin:0}.card[data-v-2e0aed88]:hover{transform:none;box-shadow:none}.card-body[data-v-2e0aed88]{min-height:0;padding:1rem 1.25rem;padding-bottom:0}.card-body p[data-v-2e0aed88]{font-family:Open Sans;margin-bottom:0}.card-img[data-v-2e0aed88]{border-radius:0}.card-header[data-v-2e0aed88]{display:flex;justify-content:space-between;align-items:center}", ""]);
+exports.push([module.i, ".container-fluid[data-v-15de73c4]{padding-bottom:4rem}", ""]);
 
 // exports
 
@@ -363,9 +363,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeGrid_vue__ = __webpack_require__(511);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2e0aed88_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__ = __webpack_require__(591);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d72d86c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__ = __webpack_require__(589);
 function injectStyle (ssrContext) {
-  __webpack_require__(605)
+  __webpack_require__(604)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -378,12 +378,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-2e0aed88"
+var __vue_scopeId__ = "data-v-0d72d86c"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeGrid_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2e0aed88_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d72d86c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -399,18 +399,18 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('app-jumbotron',{attrs:{"hero":_vm.hero}}),_vm._v(" "),_c('b-container',{attrs:{"fluid":"","id":"knives"}},[_c('b-card-group',{attrs:{"columns":""}},_vm._l((_vm.cards),function(card,index){return _c('app-knife-card',{key:index,attrs:{"card":card,"index":index}})}))],1)],1)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (!_vm.card.for_sale)?_c('div',{staticClass:"card"},[_c('app-knife-image',{attrs:{"image":_vm.card.image}}),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))])])])],1):_c('div',{staticClass:"card bg-dark text-white"},[_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale\n      "),(_vm.card.price)?_c('span',[_vm._v(":")]):_vm._e()]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[(_vm.card.price)?_c('span',[_vm._v("$")]):_vm._e(),_vm._v(_vm._s(_vm.card.price))])]),_vm._v(" "),_c('app-knife-image',{attrs:{"image":_vm.card.image}}),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_c('i',{staticClass:"fa fa-envelope mr-2",attrs:{"aria-hidden":"true"}}),_vm._v("Order My Knife")])])])],1)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
-/***/ 591:
+/***/ 590:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (!_vm.card.for_sale)?_c('div',{staticClass:"card"},[_c('app-knife-image',{attrs:{"image":_vm.card.image}}),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))])])])],1):_c('div',{staticClass:"card bg-dark text-white"},[_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale\n      "),(_vm.card.price)?_c('span',[_vm._v(":")]):_vm._e()]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[(_vm.card.price)?_c('span',[_vm._v("$")]):_vm._e(),_vm._v(_vm._s(_vm.card.price))])]),_vm._v(" "),_c('img',{staticClass:"card-img",attrs:{"src":_vm.card.image,"alt":"a picture of a custom made knife"}}),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_c('i',{staticClass:"fa fa-envelope mr-2",attrs:{"aria-hidden":"true"}}),_vm._v("Order My Knife")])])])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('app-jumbotron',{attrs:{"hero":_vm.hero}}),_vm._v(" "),_c('b-container',{attrs:{"fluid":"","id":"knives"}},[_c('b-card-group',{attrs:{"columns":""}},_vm._l((_vm.cards),function(card,index){return _c('app-knife-card',{key:index,attrs:{"card":card,"index":index}})}))],1)],1)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -438,7 +438,7 @@ var content = __webpack_require__(517);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("c086e242", content, true, {});
+var update = __webpack_require__(7)("ca5b8908", content, true, {});
 
 /***/ }),
 
@@ -452,7 +452,7 @@ var content = __webpack_require__(518);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("2934c9a2", content, true, {});
+var update = __webpack_require__(7)("c086e242", content, true, {});
 
 /***/ }),
 

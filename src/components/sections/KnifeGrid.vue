@@ -15,7 +15,7 @@
       <h3 class="text-warning">
         <span v-if="card.price">$</span>{{card.price}}</h3>
     </div>
-    <img class="card-img" :src="card.image" alt="a picture of a custom made knife">
+    <app-knife-image :image="card.image"></app-knife-image>
     <div class="card-body">
       <blockquote>
         <p class="card-text">{{card.content}}</p>
