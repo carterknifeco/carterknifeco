@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <app-jumbotron :hero="hero"></app-jumbotron>
+  <div style="padding-top:60px;">
+    <!-- <app-jumbotron :hero="hero"></app-jumbotron> -->
     <b-container fluid id="knives">
       <b-card-group columns>
         <app-knife-card v-for="(card, index) in cards" :key="index" :card="card" :index="index"></app-knife-card>
@@ -9,16 +9,16 @@
   </div>
 </template>
 <script>
-import Jumbotron from "./sections/Jumbotron.vue";
+// import Jumbotron from "./sections/Jumbotron.vue";
 import KnifeGrid from "./sections/KnifeGrid.vue";
-var desktop = require("../assets/knives.jpg");
-var mobile = require("../assets/knives.jpg");
+// var desktop = require("../assets/knives.jpg");
+// var mobile = require("../assets/knives.jpg");
 export default {
   data() {
     return {
       hero: {
-        desktop: desktop,
-        mobile: mobile,
+        // desktop: desktop,
+        // mobile: mobile,
         class: "overlay knives",
         title: "knives",
         scrollTo: "#knives"
@@ -27,7 +27,7 @@ export default {
     };
   },
   components: {
-    appJumbotron: Jumbotron,
+    // appJumbotron: Jumbotron,
     appKnifeCard: KnifeGrid
   },
   computed: {

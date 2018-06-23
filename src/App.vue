@@ -29,6 +29,12 @@ export default {
         this.transitionName = "fade-fast";
       }
     }
+  },
+  mounted() {
+    for (let knife of this.$root.$data.knives) {
+      var pre_cached_image = new Image();
+      pre_cached_image.src = knife.image_path;
+    }
   }
 };
 </script>

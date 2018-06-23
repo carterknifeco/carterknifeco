@@ -7,7 +7,7 @@ webpackJsonp([2],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Local_vue__ = __webpack_require__(502);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_39fd612c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Local_vue__ = __webpack_require__(593);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a8103c5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Local_vue__ = __webpack_require__(593);
 function injectStyle (ssrContext) {
   __webpack_require__(607)
 }
@@ -22,12 +22,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-39fd612c"
+var __vue_scopeId__ = "data-v-4a8103c5"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Local_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_39fd612c_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Local_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a8103c5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Local_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -45,6 +45,7 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sections_Jumbotron_vue__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sections_Map_vue__ = __webpack_require__(587);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapMarkers__ = __webpack_require__(513);
 //
 //
 //
@@ -54,13 +55,15 @@ var Component = normalizeComponent(
 
 
 
-var desktop = __webpack_require__(158);
-var mobile = __webpack_require__(158);
+var desktop = __webpack_require__(157);
+var mobile = __webpack_require__(157);
 var bend = __webpack_require__(527);
 var bendRing = __webpack_require__(528);
 var bendText = __webpack_require__(529);
 var bendTextInner = __webpack_require__(530);
 var bendTextOuter = __webpack_require__(531);
+
+
 /* harmony default export */ __webpack_exports__["a"] = ({
   data() {
     return {
@@ -100,7 +103,7 @@ var bendTextOuter = __webpack_require__(531);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue2_google_maps___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue2_google_maps__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapStyles__ = __webpack_require__(515);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mapMarkers__ = __webpack_require__(514);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__mapMarkers__ = __webpack_require__(513);
 //
 //
 //
@@ -221,7 +224,7 @@ __WEBPACK_IMPORTED_MODULE_1_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_0_vue
 
 /***/ }),
 
-/***/ 514:
+/***/ 513:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -389,6 +392,21 @@ __WEBPACK_IMPORTED_MODULE_1_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_0_vue
 
 /***/ }),
 
+/***/ 518:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(6)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".card .card-header[data-v-22300e3d],.card a[data-v-22300e3d]{display:flex;align-items:center}.card .card-header:hover b[data-v-22300e3d],.card a:hover b[data-v-22300e3d]{text-decoration:underline}.card a[data-v-22300e3d]{color:#007bff}.card a[data-v-22300e3d]:hover{color:#0056b3;text-decoration:underline}.card[data-v-22300e3d]:hover{transform:none;box-shadow:0 2px 10px 0 rgba(0,0,0,.05),0 3px 7px -2px rgba(0,0,0,.08),0 1px 12px 0 rgba(0,0,0,.09)}.infoWindow[data-v-22300e3d]{display:flex;flex-flow:row wrap;flex-direction:row;justify-content:flex-start;align-items:center}.carterknifecoLogo[data-v-22300e3d]{width:50px;margin:1rem;margin-left:.33rem}@media (max-width:769px){.carterknifecoLogo[data-v-22300e3d]{display:none}}#map[data-v-22300e3d]{position:absolute;top:-62px}.vue-map-container[data-v-22300e3d]{height:100vh;height:calc(101vh - 50px);height:calc(100vh - 85px);margin:0 0 57px;padding:0;box-shadow:0 2px 10px 0 rgba(0,0,0,.05),0 3px 7px -2px rgba(0,0,0,.08),0 1px 12px 0 rgba(0,0,0,.09)}@media (max-width:769px){.vue-map-container[data-v-22300e3d]{margin:0 0 2rem}}.vue-map p[data-v-22300e3d]{margin:.5rem 0;font-size:1rem}.location-boxes[data-v-22300e3d]{line-height:1.35}@media screen and (min-width:768px){.location-boxes[data-v-22300e3d]{position:-webkit-sticky;position:sticky;top:0;padding-top:60px;margin-top:-60px}}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ 520:
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -397,22 +415,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, "svg[data-v-39fd612c]:not(:root){overflow:visible}", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ 523:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(6)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".card .card-header[data-v-60d36b43],.card a[data-v-60d36b43]{display:flex;align-items:center}.card .card-header:hover b[data-v-60d36b43],.card a:hover b[data-v-60d36b43]{text-decoration:underline}.card a[data-v-60d36b43]{color:#007bff}.card a[data-v-60d36b43]:hover{color:#0056b3;text-decoration:underline}.card[data-v-60d36b43]:hover{transform:none;box-shadow:0 2px 10px 0 rgba(0,0,0,.05),0 3px 7px -2px rgba(0,0,0,.08),0 1px 12px 0 rgba(0,0,0,.09)}.infoWindow[data-v-60d36b43]{display:flex;flex-flow:row wrap;flex-direction:row;justify-content:flex-start;align-items:center}.carterknifecoLogo[data-v-60d36b43]{width:50px;margin:1rem;margin-left:.33rem}@media (max-width:769px){.carterknifecoLogo[data-v-60d36b43]{display:none}}#map[data-v-60d36b43]{position:absolute;top:-62px}.vue-map-container[data-v-60d36b43]{height:100vh;height:calc(101vh - 50px);height:calc(100vh - 85px);margin:0 0 57px;padding:0;box-shadow:0 2px 10px 0 rgba(0,0,0,.05),0 3px 7px -2px rgba(0,0,0,.08),0 1px 12px 0 rgba(0,0,0,.09)}@media (max-width:769px){.vue-map-container[data-v-60d36b43]{margin:0 0 2rem}}.vue-map p[data-v-60d36b43]{margin:.5rem 0;font-size:1rem}.location-boxes[data-v-60d36b43]{line-height:1.35}@media screen and (min-width:768px){.location-boxes[data-v-60d36b43]{position:-webkit-sticky;position:sticky;top:0;padding-top:60px;margin-top:-60px}}", ""]);
+exports.push([module.i, "svg[data-v-4a8103c5]:not(:root){overflow:visible}", ""]);
 
 // exports
 
@@ -467,9 +470,9 @@ module.exports = __webpack_require__.p + "logoBlackFullSmall.png?9ffb45e3c88a89c
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Map_vue__ = __webpack_require__(512);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_60d36b43_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Map_vue__ = __webpack_require__(598);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_22300e3d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Map_vue__ = __webpack_require__(590);
 function injectStyle (ssrContext) {
-  __webpack_require__(610)
+  __webpack_require__(605)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -482,12 +485,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-60d36b43"
+var __vue_scopeId__ = "data-v-22300e3d"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Map_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_60d36b43_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Map_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_22300e3d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Map_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -496,6 +499,17 @@ var Component = normalizeComponent(
 
 /* harmony default export */ __webpack_exports__["a"] = (Component.exports);
 
+
+/***/ }),
+
+/***/ 590:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('b-container',{attrs:{"fluid":""}},[_c('b-row',[_c('b-col',{staticClass:"col-12 col-md-8 col-lg-9"},[_c('span',{ref:"mapContainer",attrs:{"id":"map"}}),_vm._v(" "),_c('gmap-map',{ref:"map",attrs:{"center":_vm.center,"options":{styles: _vm.styles},"zoom":15}},[_c('gmap-info-window',{attrs:{"options":_vm.infoOptions,"position":_vm.infoWindowPos,"opened":_vm.infoWinOpen},on:{"closeclick":function($event){_vm.infoWinOpen=false}}},[_c('div',{staticClass:"infoWindow"},[_c('div',[_c('img',{staticClass:"carterknifecoLogo",attrs:{"src":_vm.infoWindowLogo}})]),_vm._v(" "),_c('div',[_c('p',[_c('a',{attrs:{"href":_vm.webLink,"target":"_blank "}},[_vm._v(_vm._s(_vm.business)+"\n                  "),(_vm.webLink)?_c('i',{staticClass:"fa fa-external-link ml-2",attrs:{"aria-hidden":"true "}}):_vm._e()])]),_vm._v(" "),_c('p',[_c('a',{attrs:{"href":_vm.mapLink,"target":"_blank "}},[_vm._v(_vm._s(_vm.infoContent)),_c('br'),_vm._v(_vm._s(_vm.infoSubContent)+"\n                  "),_c('i',{staticClass:"fa fa-map-marker ml-2 ",attrs:{"aria-hidden":"true "}})])])])])]),_vm._v(" "),_vm._l((_vm.markers),function(m,i){return _c('gmap-marker',{key:i,attrs:{"position":m.position,"clickable":true,"draggable":false,"icon":_vm.icon},on:{"click":function($event){_vm.toggleInfoWindow(m,i)}}})})],2)],1),_vm._v(" "),_c('b-col',{staticClass:"col-12 col-md-4 col-lg-3"},[_c('div',{staticClass:"location-boxes"},_vm._l((_vm.markers),function(m,i){return _c('div',{key:i},[_c('div',{staticClass:"card mb-3",on:{"click":function($event){_vm.toggleInfoWindow(m,i)}}},[_c('div',{staticClass:"card-header"},[_c('i',{staticClass:"text-danger fa fa-map-marker mr-3",attrs:{"aria-hidden":"true "}}),_vm._v("\n              "+_vm._s(m.business)+"\n            ")]),_vm._v(" "),_c('ul',{staticClass:"list-group list-group-flush"},[_c('li',{staticClass:"list-group-item"},[_c('a',{attrs:{"href":m.mapLink,"target":"_blank "}},[_c('i',{staticClass:"fa fa-car mr-3 ",attrs:{"aria-hidden":"true"}}),_vm._v(_vm._s(m.infoText)),_c('br'),_vm._v(_vm._s(m.infoSubText)+"\n                ")])]),_vm._v(" "),(m.webLink)?_c('li',{staticClass:"list-group-item"},[_c('a',{attrs:{"href":m.webLink,"target":"_blank"}},[_c('i',{staticClass:"fa fa-external-link mr-3",attrs:{"aria-hidden":"true"}}),_vm._v("\n                  Website\n                ")])]):_vm._e()])])])}))])],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
@@ -510,14 +524,17 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 598:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 605:
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('b-container',{attrs:{"fluid":""}},[_c('b-row',[_c('b-col',{staticClass:"col-12 col-md-8 col-lg-9"},[_c('span',{ref:"mapContainer",attrs:{"id":"map"}}),_vm._v(" "),_c('gmap-map',{ref:"map",attrs:{"center":_vm.center,"options":{styles: _vm.styles},"zoom":15}},[_c('gmap-info-window',{attrs:{"options":_vm.infoOptions,"position":_vm.infoWindowPos,"opened":_vm.infoWinOpen},on:{"closeclick":function($event){_vm.infoWinOpen=false}}},[_c('div',{staticClass:"infoWindow"},[_c('div',[_c('img',{staticClass:"carterknifecoLogo",attrs:{"src":_vm.infoWindowLogo}})]),_vm._v(" "),_c('div',[_c('p',[_c('a',{attrs:{"href":_vm.webLink,"target":"_blank "}},[_vm._v(_vm._s(_vm.business)+"\n                  "),(_vm.webLink)?_c('i',{staticClass:"fa fa-external-link ml-2 ",attrs:{"aria-hidden":"true "}}):_vm._e()])]),_vm._v(" "),_c('p',[_c('a',{attrs:{"href":_vm.mapLink,"target":"_blank "}},[_vm._v(_vm._s(_vm.infoContent)),_c('br'),_vm._v(_vm._s(_vm.infoSubContent)+"\n                  "),_c('i',{staticClass:"fa fa-map-marker ml-2 ",attrs:{"aria-hidden":"true "}})])])])])]),_vm._v(" "),_vm._l((_vm.markers),function(m,i){return _c('gmap-marker',{key:i,attrs:{"position":m.position,"clickable":true,"draggable":false,"icon":_vm.icon},on:{"click":function($event){_vm.toggleInfoWindow(m,i) }}})})],2)],1),_vm._v(" "),_c('b-col',{staticClass:"col-12 col-md-4 col-lg-3"},[_c('div',{staticClass:"location-boxes"},_vm._l((_vm.markers),function(m,i){return _c('div',{key:i},[_c('div',{staticClass:"card mb-3",on:{"click":function($event){_vm.toggleInfoWindow(m,i)}}},[_c('div',{staticClass:"card-header"},[_c('i',{staticClass:"text-danger fa fa-map-marker mr-3 ",attrs:{"aria-hidden":"true "}}),_vm._v("\n              "+_vm._s(m.business)+"\n            ")]),_vm._v(" "),_c('ul',{staticClass:"list-group list-group-flush "},[_c('li',{staticClass:"list-group-item "},[_c('a',{attrs:{"href":m.mapLink,"target":"_blank "}},[_c('i',{staticClass:"fa fa-car mr-3 ",attrs:{"aria-hidden":"true "}}),_vm._v(_vm._s(m.infoText)),_c('br'),_vm._v(_vm._s(m.infoSubText)+"\n                ")])]),_vm._v(" "),(m.webLink )?_c('li',{staticClass:"list-group-item "},[_c('a',{attrs:{"href":m.webLink,"target":"_blank "}},[_c('i',{staticClass:"fa fa-external-link mr-3 ",attrs:{"aria-hidden":"true "}}),_vm._v("\n                  Website\n                ")])]):_vm._e()])])])}))])],1)],1)}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(518);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__(7)("666a2071", content, true, {});
 
 /***/ }),
 
@@ -531,21 +548,7 @@ var content = __webpack_require__(520);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("1f3d9f46", content, true, {});
-
-/***/ }),
-
-/***/ 610:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(523);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(7)("00b57f02", content, true, {});
+var update = __webpack_require__(7)("23a9319c", content, true, {});
 
 /***/ })
 

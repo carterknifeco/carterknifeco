@@ -104,6 +104,9 @@ export default {
       align-self: center;
     }
   }
+  .nav-link {
+    font-weight: bold;
+  }
 }
 
 .navbar-brand {

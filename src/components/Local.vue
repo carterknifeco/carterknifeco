@@ -14,6 +14,8 @@ var bendRing = require("../assets/bendRing.png");
 var bendText = require("../assets/bendText.png");
 var bendTextInner = require("../assets/bendTextInner.png");
 var bendTextOuter = require("../assets/bendTextOuter.png");
+
+import mapMarkers from "../mapMarkers";
 export default {
   data() {
     return {

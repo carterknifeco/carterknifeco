@@ -12,37 +12,37 @@
               <div>
                 <p>
                   <a :href="webLink " target="_blank ">{{business}}
-                    <i v-if="webLink" class="fa fa-external-link ml-2 " aria-hidden="true "></i>
+                    <i v-if="webLink" class="fa fa-external-link ml-2" aria-hidden="true "></i>
                   </a>
                 </p>
                 <p>
-                  <a :href="mapLink " target="_blank ">{{infoContent}}<br>{{infoSubContent}}
+                  <a :href="mapLink" target="_blank ">{{infoContent}}<br>{{infoSubContent}}
                     <i class="fa fa-map-marker ml-2 " aria-hidden="true "></i>
                   </a>
                 </p>
               </div>
             </div>
           </gmap-info-window>
-          <gmap-marker :key="i " v-for="(m, i) in markers " :position="m.position " :clickable="true " :draggable="false" :icon="icon" @click="toggleInfoWindow(m,i) "></gmap-marker>
+          <gmap-marker :key="i " v-for="(m, i) in markers" :position="m.position" :clickable="true" :draggable="false" :icon="icon" @click="toggleInfoWindow(m,i)"></gmap-marker>
         </gmap-map>
       </b-col>
       <b-col class="col-12 col-md-4 col-lg-3">
         <div class="location-boxes">
-          <div :key="i" v-for="(m, i) in markers ">
+          <div :key="i" v-for="(m, i) in markers">
             <div class="card mb-3" @click="toggleInfoWindow(m,i)">
               <div class="card-header">
-                <i class="text-danger fa fa-map-marker mr-3 " aria-hidden="true "></i>
+                <i class="text-danger fa fa-map-marker mr-3" aria-hidden="true "></i>
                 {{m.business}}
               </div>
-              <ul class="list-group list-group-flush ">
-                <li class="list-group-item ">
-                  <a :href="m.mapLink " target="_blank ">
-                    <i class="fa fa-car mr-3 " aria-hidden="true "></i>{{m.infoText}}<br>{{m.infoSubText}}
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a :href="m.mapLink" target="_blank ">
+                    <i class="fa fa-car mr-3 " aria-hidden="true"></i>{{m.infoText}}<br>{{m.infoSubText}}
                   </a>
                 </li>
-                <li v-if="m.webLink " class="list-group-item ">
-                  <a :href="m.webLink " target="_blank ">
-                    <i class="fa fa-external-link mr-3 " aria-hidden="true "></i>
+                <li v-if="m.webLink" class="list-group-item">
+                  <a :href="m.webLink" target="_blank">
+                    <i class="fa fa-external-link mr-3" aria-hidden="true"></i>
                     Website
                   </a>
                 </li>

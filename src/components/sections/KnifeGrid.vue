@@ -32,7 +32,7 @@ export default {
   props: ["card"],
   computed: {
     cardBody() {
-      return `Hello Mathhew! I'd like to order the following knife from you:\n \n${
+      return `Hello Mathhew! I'd like to order the following knife from you:%0D%0A%0D%0A${
         this.card.content
       }`;
     },
