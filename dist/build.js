@@ -18522,10 +18522,12 @@ Vue$3.compile = compileToFunctions;
     }
   },
   mounted() {
-    for (let knife of this.$root.$data.knives) {
-      var pre_cached_image = new Image();
-      pre_cached_image.src = knife.image_path;
-    }
+    setTimeout(() => {
+      for (let knife of this.$root.$data.knives) {
+        var pre_cached_image = new Image();
+        pre_cached_image.src = knife.image_path;
+      }
+    }, 1000);
   }
 });
 
@@ -26368,7 +26370,7 @@ module.exports = __webpack_require__(29);
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(73);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_51f2007a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4feb3f92_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(464);
 function injectStyle (ssrContext) {
   __webpack_require__(473)
 }
@@ -26388,7 +26390,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_51f2007a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4feb3f92_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -49798,7 +49800,7 @@ var content = __webpack_require__(302);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("7b27cb0d", content, true, {});
+var update = __webpack_require__(7)("c4bccd38", content, true, {});
 
 /***/ }),
 /* 474 */
