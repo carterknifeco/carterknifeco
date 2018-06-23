@@ -125,6 +125,10 @@ var mobile = __webpack_require__(156);
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["a"] = ({
   props: ["card"],
@@ -156,7 +160,7 @@ exports.push([module.i, ".container-fluid[data-v-15de73c4]{padding-bottom:4rem}"
 
 /***/ }),
 
-/***/ 519:
+/***/ 522:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(6)(false);
@@ -164,7 +168,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, ".card[data-v-5e6b8684]{cursor:default;box-shadow:none}.card h3[data-v-5e6b8684],.card h4[data-v-5e6b8684]{margin:0}.card[data-v-5e6b8684]:hover{transform:none;box-shadow:none}.card-body[data-v-5e6b8684]{min-height:0;padding:1rem 1.25rem;padding-bottom:0}.card-body p[data-v-5e6b8684]{font-family:Open Sans;margin-bottom:0}.card-img[data-v-5e6b8684]{border-radius:0}.card-header[data-v-5e6b8684]{display:flex;justify-content:space-between;align-items:center}", ""]);
+exports.push([module.i, ".card[data-v-c4b55964]{cursor:default;box-shadow:none}.card h3[data-v-c4b55964],.card h4[data-v-c4b55964]{margin:0}.card[data-v-c4b55964]:hover{transform:none;box-shadow:none}.card-body[data-v-c4b55964]{min-height:0;padding:1rem 1.25rem;padding-bottom:0}.card-body p[data-v-c4b55964]{font-family:Open Sans;margin-bottom:0}.card-img[data-v-c4b55964]{border-radius:0}.card-header[data-v-c4b55964]{display:flex;justify-content:space-between;align-items:center}", ""]);
 
 // exports
 
@@ -261,9 +265,9 @@ module.exports = __webpack_require__.p + "9a.jpg?633737a2286b9e38b6ae4291bc4fdf4
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeGrid_vue__ = __webpack_require__(509);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5e6b8684_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__ = __webpack_require__(592);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c4b55964_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__ = __webpack_require__(595);
 function injectStyle (ssrContext) {
-  __webpack_require__(603)
+  __webpack_require__(606)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -276,12 +280,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-5e6b8684"
+var __vue_scopeId__ = "data-v-c4b55964"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeGrid_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5e6b8684_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_c4b55964_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -304,11 +308,11 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 592:
+/***/ 595:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (!_vm.card.for_sale)?_c('b-card',{attrs:{"img-src":_vm.card.image,"img-fluid":"","alt":"a picture of a custom made knife","img-top":""}},[_c('blockquote',{staticClass:"card-blockquote"},[_c('p',{staticClass:"card-text"},[_vm._v("\n      "+_vm._s(_vm.card.content)+"\n    ")])])]):_c('div',{staticClass:"card bg-dark text-white"},[_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale:")]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[_vm._v("$"+_vm._s(_vm.card.price))])]),_vm._v(" "),_c('img',{staticClass:"card-img",attrs:{"src":_vm.card.image,"alt":"a picture of a custom made knife"}}),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_vm._v("Order My Knife")])])])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (!_vm.card.for_sale)?_c('b-card',{attrs:{"img-src":_vm.card.image,"img-fluid":"","alt":"a picture of a custom made knife","img-top":""}},[_c('blockquote',{staticClass:"card-blockquote"},[_c('p',{staticClass:"card-text"},[_vm._v("\n      "+_vm._s(_vm.card.content)+"\n    ")])])]):_c('div',{staticClass:"card bg-dark text-white"},[_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale\n      "),(_vm.card.price)?_c('span',[_vm._v(":")]):_vm._e()]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[(_vm.card.price)?_c('span',[_vm._v("$")]):_vm._e(),_vm._v(_vm._s(_vm.card.price))])]),_vm._v(" "),_c('img',{staticClass:"card-img",attrs:{"src":_vm.card.image,"alt":"a picture of a custom made knife"}}),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_c('i',{staticClass:"fa fa-envelope mr-2",attrs:{"aria-hidden":"true"}}),_vm._v("Order My Knife")])])])])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -329,17 +333,17 @@ var update = __webpack_require__(7)("c086e242", content, true, {});
 
 /***/ }),
 
-/***/ 603:
+/***/ 606:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(519);
+var content = __webpack_require__(522);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("6a6bd862", content, true, {});
+var update = __webpack_require__(7)("ad7936dc", content, true, {});
 
 /***/ }),
 

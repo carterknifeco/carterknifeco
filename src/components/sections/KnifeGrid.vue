@@ -8,14 +8,18 @@
   </b-card>
   <div v-else class="card bg-dark text-white">
     <div class="card-header">
-      <h3 class="text-warning">For Sale:</h3>
-      <h3 class="text-warning">${{card.price}}</h3>
+      <h3 class="text-warning">For Sale
+        <span v-if="card.price">:</span>
+      </h3>
+      <h3 class="text-warning">
+        <span v-if="card.price">$</span>{{card.price}}</h3>
     </div>
     <img class="card-img" :src="card.image" alt="a picture of a custom made knife">
     <div class="card-body">
       <blockquote>
         <p class="card-text">{{card.content}}</p>
-        <a :href="mailToBody" target="_blank" class="btn btn-warning card-btn mt-3 mb-1">Order My Knife</a>
+        <a :href="mailToBody" target="_blank" class="btn btn-warning card-btn mt-3 mb-1">
+          <i class="fa fa-envelope mr-2" aria-hidden="true"></i>Order My Knife</a>
       </blockquote>
     </div>
   </div>

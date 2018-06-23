@@ -205,7 +205,7 @@ body {
       background-image: none;
       border-color: #0062cc;
     }
-    .btn.btn-warning {
+    .btn.btn-warning:not(.card-btn) {
       color: black;
       background-color: #e0a800;
       border-color: #d39e00;
