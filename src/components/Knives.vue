@@ -41,7 +41,9 @@ export default {
       let cardObject = {
         //image: image,
         image: this.knives[i].image_path,
-        content: this.knives[i].description_text
+        content: this.knives[i].description_text,
+        for_sale: this.knives[i].for_sale,
+        price: this.knives[i].price
       };
       this.cards.push(cardObject);
     }

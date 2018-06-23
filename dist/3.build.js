@@ -7,9 +7,9 @@ webpackJsonp([3],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Life_vue__ = __webpack_require__(500);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_928528d6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Life_vue__ = __webpack_require__(593);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_928528d6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Life_vue__ = __webpack_require__(594);
 function injectStyle (ssrContext) {
-  __webpack_require__(604)
+  __webpack_require__(605)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -233,9 +233,9 @@ var mobile = __webpack_require__(156);
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_InstaFeedCard_vue__ = __webpack_require__(505);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e7e7b616_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaFeedCard_vue__ = __webpack_require__(596);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e7e7b616_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaFeedCard_vue__ = __webpack_require__(597);
 function injectStyle (ssrContext) {
-  __webpack_require__(606)
+  __webpack_require__(607)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -265,7 +265,7 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 520:
+/***/ 521:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(6)(false);
@@ -280,7 +280,7 @@ exports.push([module.i, "svg[data-v-928528d6]:not(:root){overflow:visible}.jumbo
 
 /***/ }),
 
-/***/ 522:
+/***/ 523:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(6)(false);
@@ -301,7 +301,7 @@ exports.push([module.i, ".spinner[data-v-e7e7b616]{position:relative;width:100px
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_InstaKnife_vue__ = __webpack_require__(507);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_297c2e11_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaKnife_vue__ = __webpack_require__(585);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_297c2e11_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaKnife_vue__ = __webpack_require__(586);
 var normalizeComponent = __webpack_require__(5)
 /* script */
 
@@ -336,7 +336,7 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_InstaLife_vue__ = __webpack_require__(508);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_517c72bf_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaLife_vue__ = __webpack_require__(588);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_517c72bf_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaLife_vue__ = __webpack_require__(589);
 var normalizeComponent = __webpack_require__(5)
 /* script */
 
@@ -365,7 +365,7 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 585:
+/***/ 586:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -376,7 +376,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 588:
+/***/ 589:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -387,7 +387,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 593:
+/***/ 594:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -398,7 +398,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 596:
+/***/ 597:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -409,13 +409,13 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 604:
+/***/ 605:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(520);
+var content = __webpack_require__(521);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -423,13 +423,13 @@ var update = __webpack_require__(7)("77b6f7c2", content, true, {});
 
 /***/ }),
 
-/***/ 606:
+/***/ 607:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(522);
+var content = __webpack_require__(523);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
