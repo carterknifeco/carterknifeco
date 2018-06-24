@@ -1,34 +1,15 @@
 <template>
-  <div v-if="!card.for_sale" class="card">
-    <app-knife-image :image="card.image"></app-knife-image>
-    <div class="card-body">
-      <blockquote>
-        <p class="card-text">{{card.content}}</p>
-      </blockquote>
-    </div>
-  </div>
-  <div v-else class="card bg-dark text-white">
-    <div class="card-header">
-      <h3 class="text-warning">For Sale
-        <span v-if="card.price">:</span>
-      </h3>
-      <h3 class="text-warning">
-        <span v-if="card.price">$</span>{{card.price}}</h3>
-    </div>
-    <app-knife-image :image="card.image"></app-knife-image>
-    <div class="card-body">
-      <blockquote>
-        <p class="card-text">{{card.content}}</p>
-        <a :href="mailToBody" target="_blank" class="btn btn-warning card-btn mt-3 mb-1">
-          <i class="fa fa-envelope mr-2" aria-hidden="true"></i>Order My Knife</a>
-      </blockquote>
-    </div>
-  </div>
+  <app-knife-card-with-video v-if="card.video" :card="card" :cardBody="cardBody" :mailToBody="mailToBody"></app-knife-card-with-video>
+  <app-knife-card-with-image v-else :card="card" :cardBody="cardBody" :mailToBody="mailToBody"></app-knife-card-with-image>
 </template>
 <script>
-import knifeImage from "../molecules/KnifeImage.vue";
+import knifeCardImage from "../molecules/KnifeCardImage.vue";
+import knifeCardVideo from "../molecules/KnifeCardVideo.vue";
 export default {
-  components: { appKnifeImage: knifeImage },
+  components: {
+    appKnifeCardWithImage: knifeCardImage,
+    appKnifeCardWithVideo: knifeCardVideo
+  },
   props: ["card"],
   computed: {
     cardBody() {
@@ -45,34 +26,36 @@ export default {
   }
 };
 </script>
-<style lang="scss" scoped>
-.card {
-  h3,
-  h4 {
-    margin: 0;
-  }
-  cursor: default;
-  box-shadow: initial;
-  &:hover {
-    transform: none;
+<style lang="scss">
+#knives {
+  .card {
+    h3,
+    h4 {
+      margin: 0;
+    }
+    cursor: default;
     box-shadow: initial;
+    &:hover {
+      transform: none;
+      box-shadow: initial;
+    }
   }
-}
-.card-body {
-  min-height: 0;
-  padding: 1rem 1.25rem;
-  padding-bottom: 0;
-  p {
-    font-family: "Open Sans";
-    margin-bottom: 0;
+  .card-body {
+    min-height: 0;
+    padding: 1rem 1.25rem;
+    padding-bottom: 0;
+    p {
+      font-family: "Open Sans";
+      margin-bottom: 0;
+    }
   }
-}
-.card-img {
-  border-radius: 0;
-}
-.card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  .card-img {
+    border-radius: 0;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 </style>

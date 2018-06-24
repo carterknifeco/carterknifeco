@@ -43,7 +43,8 @@ export default {
         image: this.knives[i].image_path,
         content: this.knives[i].description_text,
         for_sale: this.knives[i].for_sale,
-        price: this.knives[i].price
+        price: this.knives[i].price,
+        video: this.knives[i].video_url
       };
       this.cards.push(cardObject);
     }
