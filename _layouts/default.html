@@ -21,8 +21,7 @@
     {% assign knives = page.knives | reverse %}
     <script>window.knives = {{ knives | jsonify }} </script>
     <div id="app"></div>
-    <script src="{{site.baseUrl}}/dist/build.js"></script>
-    <!-- <div>hello jekyll and vue!</div> -->
+    <script src='{{ "/dist/build.js" | relative_url }}'></script>
 </body>
 
 </html>
