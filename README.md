@@ -1,10 +1,10 @@
 # carterknifeco2.0
 
-> A Vue.js project
+> A Jekyll and Vue.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
