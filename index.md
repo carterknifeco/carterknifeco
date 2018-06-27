@@ -74,8 +74,8 @@ knives:
     description_text: >-
       Honduran rosewood handle with a copper guard and pins. The blade is bowie
       style shape made from 1084 with a differential tempering line (hamon).
-    for_sale: true
-    price: '100'
-    video_url: 'https://youtu.be/1y68hVlShlA'
+    for_sale: false
+    price:
+    video_url:
 ---
 
