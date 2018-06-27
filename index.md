@@ -1,5 +1,4 @@
 ---
-layout: default
 knives:
   - image_path: /uploads/12a.jpg
     description_text: >-
@@ -78,4 +77,3 @@ knives:
     price:
     video_url:
 ---
-
