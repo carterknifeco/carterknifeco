@@ -9,7 +9,7 @@
 </template>
 <script>
 import Card from "../molecules/Card.vue";
-var img0 = require("../../assets/process/0.jpg");
+// var img0 = require("../../assets/process/0.JPG");
 var busFront = require("../../assets/busFrontCropped.jpg");
 var busInterior = require("../../assets/busInterior.jpg");
 var busGrind = require("../../assets/busGrind.jpg");

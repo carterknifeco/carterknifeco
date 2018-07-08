@@ -37,9 +37,7 @@ export default {
   },
   mounted() {
     for (let i = 0; i < this.knives.length; i++) {
-      let image = require(`../assets/knives/${i + 1}a.jpg`);
       let cardObject = {
-        //image: image,
         image: this.knives[i].image_path,
         content: this.knives[i].description_text,
         for_sale: this.knives[i].for_sale,

@@ -5,17 +5,17 @@
 </template>
 <script>
 import Jumbotron from "./sections/Jumbotron.vue";
-var img0 = require("../assets/process/0.jpg");
-var img1 = require("../assets/process/1.jpg");
-var img2 = require("../assets/process/2.jpg");
+var img0 = require("../assets/process/0.JPG");
+var img1 = require("../assets/process/1.JPG");
+var img2 = require("../assets/process/2.JPG");
 var img3 = require("../assets/busInterior.jpg");
-var img4 = require("../assets/process/4.jpg");
-var img5 = require("../assets/process/5.jpg");
-var img6 = require("../assets/process/6.jpg");
-var img7 = require("../assets/process/7.jpg");
-var img8 = require("../assets/process/8.jpg");
-var img9 = require("../assets/process/9.jpg");
-var img10 = require("../assets/process/10.jpg");
+var img4 = require("../assets/process/4.JPG");
+var img5 = require("../assets/process/5.JPG");
+var img6 = require("../assets/process/6.JPG");
+var img7 = require("../assets/process/7.JPG");
+var img8 = require("../assets/process/8.JPG");
+var img9 = require("../assets/process/9.JPG");
+var img10 = require("../assets/process/10.JPG");
 var imgAlt = require("../assets/knifeInHand.jpg");
 var busGrind = require("../assets/busGrind.jpg");
 export default {

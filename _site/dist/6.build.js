@@ -1,13 +1,13 @@
 webpackJsonp([6],{
 
-/***/ 165:
+/***/ 164:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_About_vue__ = __webpack_require__(498);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_About_vue__ = __webpack_require__(497);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e67eebf2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__ = __webpack_require__(606);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e67eebf2_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_About_vue__ = __webpack_require__(595);
 var normalizeComponent = __webpack_require__(5)
 /* script */
 
@@ -36,14 +36,14 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 490:
+/***/ 489:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "busFront.jpg?809f48a001e2f5a65b1e0d4de19d98c6";
 
 /***/ }),
 
-/***/ 491:
+/***/ 490:
 /***/ (function(module, exports, __webpack_require__) {
 
 //
@@ -88,12 +88,12 @@ module.exports = __webpack_require__.p + "busFront.jpg?809f48a001e2f5a65b1e0d4de
 //
 //
 
-var desktop = __webpack_require__(490);
-var mobile = __webpack_require__(490);
+var desktop = __webpack_require__(489);
+var mobile = __webpack_require__(489);
 
 /***/ }),
 
-/***/ 493:
+/***/ 492:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(6)(false);
@@ -108,23 +108,23 @@ exports.push([module.i, ".flex-container[data-v-f7ed4b56]{display:flex;flex-flow
 
 /***/ }),
 
-/***/ 494:
+/***/ 493:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "roo.jpg?a1a8ba325689c262c2b5b0690c181567";
 
 /***/ }),
 
-/***/ 495:
+/***/ 494:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Story_vue__ = __webpack_require__(491);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Story_vue__ = __webpack_require__(490);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Story_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Story_vue__);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f7ed4b56_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Story_vue__ = __webpack_require__(496);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f7ed4b56_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Story_vue__ = __webpack_require__(495);
 function injectStyle (ssrContext) {
-  __webpack_require__(497)
+  __webpack_require__(496)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -154,7 +154,7 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 496:
+/***/ 495:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -165,13 +165,13 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 497:
+/***/ 496:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(493);
+var content = __webpack_require__(492);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -179,12 +179,12 @@ var update = __webpack_require__(7)("31de8aff", content, true, {});
 
 /***/ }),
 
-/***/ 498:
+/***/ 497:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sections_Jumbotron_vue__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sections_Story_vue__ = __webpack_require__(495);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sections_Story_vue__ = __webpack_require__(494);
 //
 //
 //
@@ -194,7 +194,7 @@ var update = __webpack_require__(7)("31de8aff", content, true, {});
 
 
 
-var roo = __webpack_require__(494);
+var roo = __webpack_require__(493);
 /* harmony default export */ __webpack_exports__["a"] = ({
   data() {
     return {
@@ -215,7 +215,7 @@ var roo = __webpack_require__(494);
 
 /***/ }),
 
-/***/ 606:
+/***/ 595:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
