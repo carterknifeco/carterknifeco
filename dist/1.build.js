@@ -7,9 +7,9 @@ webpackJsonp([1],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Knives_vue__ = __webpack_require__(499);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5995c7d3_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Knives_vue__ = __webpack_require__(588);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_23a5d765_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Knives_vue__ = __webpack_require__(585);
 function injectStyle (ssrContext) {
-  __webpack_require__(603)
+  __webpack_require__(602)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -22,12 +22,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-5995c7d3"
+var __vue_scopeId__ = "data-v-23a5d765"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Knives_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5995c7d3_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Knives_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_23a5d765_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Knives_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -91,7 +91,7 @@ module.exports = __webpack_require__.p + "x.svg?658f1a6dc795abba418d363e7f8abef6
   mounted() {
     for (let i = 0; i < this.knives.length; i++) {
       let cardObject = {
-        images: this.knives[i].images,
+        images: this.knives[i].image_paths,
         content: this.knives[i].description_text,
         for_sale: this.knives[i].for_sale,
         price: this.knives[i].price,
@@ -270,7 +270,7 @@ module.exports = __webpack_require__.p + "x.svg?658f1a6dc795abba418d363e7f8abef6
 
 /***/ }),
 
-/***/ 522:
+/***/ 519:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(6)(false);
@@ -278,23 +278,22 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, ".container-fluid[data-v-5995c7d3]{padding-bottom:4rem}", ""]);
+exports.push([module.i, ".embed-responsive[data-v-0a4d2322]:before{display:none}.image-video-toggle[data-v-0a4d2322]{position:relative}.image-video-toggle[data-v-0a4d2322]:before{content:\"\";position:absolute;width:100%;height:100%;top:0;left:0;background:rgba(0,0,0,.33)}.image-video-toggle .embed-responsive[data-v-0a4d2322]{display:none}.image-video-toggle .fa-play[data-v-0a4d2322]{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:#fff;font-size:3rem}.image-video-toggle.playing .embed-responsive[data-v-0a4d2322]{display:block}.image-video-toggle.playing .card-img[data-v-0a4d2322],.image-video-toggle.playing .fa-play[data-v-0a4d2322],.image-video-toggle.playing[data-v-0a4d2322]:before{display:none}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 523:
+/***/ 521:
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(156);
 exports = module.exports = __webpack_require__(6)(false);
 // imports
 
 
 // module
-exports.push([module.i, ".overlay[data-v-5d843f9d]{cursor:pointer}.overlay.showMe[data-v-5d843f9d]{display:block}.overlay .card-img[data-v-5d843f9d]{border-radius:0}.large-overlay[data-v-5d843f9d]{display:none;cursor:default}.large-overlay.grow[data-v-5d843f9d]{position:fixed;z-index:9999;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.5)}.large-overlay.grow .image-holder[data-v-5d843f9d]{position:relative}.large-overlay.grow .image-holder[data-v-5d843f9d]:before{content:url(" + escape(__webpack_require__(491)) + ");line-height:1;position:absolute;top:0;right:0;color:#fff;cursor:pointer;background:#dc3545}@media (orientation:portrait){.large-overlay.grow .card-img[data-v-5d843f9d]{width:100%;height:auto}}@media (orientation:landscape){.large-overlay.grow .card-img[data-v-5d843f9d]{width:auto;height:90%;height:100vh}}.large-overlay.grow .close-icon[data-v-5d843f9d]{position:absolute;right:0;top:0;transform:translate(-100%,100%)}", ""]);
+exports.push([module.i, ".container-fluid[data-v-23a5d765]{padding-bottom:4rem}", ""]);
 
 // exports
 
@@ -304,12 +303,13 @@ exports.push([module.i, ".overlay[data-v-5d843f9d]{cursor:pointer}.overlay.showM
 /***/ 524:
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(156);
 exports = module.exports = __webpack_require__(6)(false);
 // imports
 
 
 // module
-exports.push([module.i, ".embed-responsive[data-v-66214d56]:before{display:none}.image-video-toggle[data-v-66214d56]{position:relative}.image-video-toggle[data-v-66214d56]:before{content:\"\";position:absolute;width:100%;height:100%;top:0;left:0;background:rgba(0,0,0,.33)}.image-video-toggle .embed-responsive[data-v-66214d56]{display:none}.image-video-toggle .fa-play[data-v-66214d56]{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:#fff;font-size:3rem}.image-video-toggle.playing .embed-responsive[data-v-66214d56]{display:block}.image-video-toggle.playing .card-img[data-v-66214d56],.image-video-toggle.playing .fa-play[data-v-66214d56],.image-video-toggle.playing[data-v-66214d56]:before{display:none}", ""]);
+exports.push([module.i, ".overlay[data-v-5d843f9d]{cursor:pointer}.overlay.showMe[data-v-5d843f9d]{display:block}.overlay .card-img[data-v-5d843f9d]{border-radius:0}.large-overlay[data-v-5d843f9d]{display:none;cursor:default}.large-overlay.grow[data-v-5d843f9d]{position:fixed;z-index:9999;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.5)}.large-overlay.grow .image-holder[data-v-5d843f9d]{position:relative}.large-overlay.grow .image-holder[data-v-5d843f9d]:before{content:url(" + escape(__webpack_require__(491)) + ");line-height:1;position:absolute;top:0;right:0;color:#fff;cursor:pointer;background:#dc3545}@media (orientation:portrait){.large-overlay.grow .card-img[data-v-5d843f9d]{width:100%;height:auto}}@media (orientation:landscape){.large-overlay.grow .card-img[data-v-5d843f9d]{width:auto;height:90%;height:100vh}}.large-overlay.grow .close-icon[data-v-5d843f9d]{position:absolute;right:0;top:0;transform:translate(-100%,100%)}", ""]);
 
 // exports
 
@@ -337,7 +337,7 @@ exports.push([module.i, "#knives .card{cursor:default;box-shadow:none}#knives .c
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeCardImage_vue__ = __webpack_require__(506);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7c7d1610_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardImage_vue__ = __webpack_require__(592);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_82a2f73a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardImage_vue__ = __webpack_require__(593);
 var normalizeComponent = __webpack_require__(5)
 /* script */
 
@@ -354,7 +354,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeCardImage_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_7c7d1610_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardImage_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_82a2f73a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardImage_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -372,9 +372,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeCardVideo_vue__ = __webpack_require__(507);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_66214d56_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardVideo_vue__ = __webpack_require__(591);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0a4d2322_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardVideo_vue__ = __webpack_require__(583);
 function injectStyle (ssrContext) {
-  __webpack_require__(605)
+  __webpack_require__(600)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -387,12 +387,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-66214d56"
+var __vue_scopeId__ = "data-v-0a4d2322"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeCardVideo_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_66214d56_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardVideo_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0a4d2322_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardVideo_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -410,9 +410,9 @@ var Component = normalizeComponent(
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeImage_vue__ = __webpack_require__(508);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5d843f9d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeImage_vue__ = __webpack_require__(590);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5d843f9d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeImage_vue__ = __webpack_require__(591);
 function injectStyle (ssrContext) {
-  __webpack_require__(604)
+  __webpack_require__(605)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -480,7 +480,18 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 588:
+/***/ 583:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card",class:{ 'bg-dark': _vm.card.for_sale,  'text-white': _vm.card.for_sale}},[(_vm.card.for_sale)?_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale\n      "),(_vm.card.price)?_c('span',[_vm._v(":")]):_vm._e()]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[(_vm.card.price)?_c('span',[_vm._v("$")]):_vm._e(),_vm._v(_vm._s(_vm.card.price))])]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"image-video-toggle",class:{playing: _vm.playing},on:{"click":_vm.playVideo}},[_c('i',{staticClass:"fa fa-play"}),_vm._v(" "),_c('img',{ref:"imageCard",staticClass:"card-img",attrs:{"src":_vm.card.images[0],"alt":"a picture of a custom made knife"}}),_vm._v(" "),_c('div',{staticClass:"embed-responsive",style:(_vm.videoHeight)},[_c('iframe',{staticClass:"embed-responsive-item",attrs:{"src":_vm.videoSource,"allowfullscreen":"","allow":"autoplay"}})])]),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),(_vm.card.for_sale)?_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_c('i',{staticClass:"fa fa-envelope mr-2",attrs:{"aria-hidden":"true"}}),_vm._v("Order My Knife")]):_vm._e()])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
+/***/ 585:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -491,7 +502,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 590:
+/***/ 591:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -502,22 +513,11 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 591:
+/***/ 593:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card",class:{ 'bg-dark': _vm.card.for_sale,  'text-white': _vm.card.for_sale}},[(_vm.card.for_sale)?_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale\n      "),(_vm.card.price)?_c('span',[_vm._v(":")]):_vm._e()]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[(_vm.card.price)?_c('span',[_vm._v("$")]):_vm._e(),_vm._v(_vm._s(_vm.card.price))])]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"image-video-toggle",class:{playing: _vm.playing},on:{"click":_vm.playVideo}},[_c('i',{staticClass:"fa fa-play"}),_vm._v(" "),_c('img',{ref:"imageCard",staticClass:"card-img",attrs:{"src":_vm.card.images[0].image,"alt":"a picture of a custom made knife"}}),_vm._v(" "),_c('div',{staticClass:"embed-responsive",style:(_vm.videoHeight)},[_c('iframe',{staticClass:"embed-responsive-item",attrs:{"src":_vm.videoSource,"allowfullscreen":"","allow":"autoplay"}})])]),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),(_vm.card.for_sale)?_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_c('i',{staticClass:"fa fa-envelope mr-2",attrs:{"aria-hidden":"true"}}),_vm._v("Order My Knife")]):_vm._e()])])])}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
-/***/ 592:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card",class:{ 'bg-dark': _vm.card.for_sale,  'text-white': _vm.card.for_sale}},[(_vm.card.for_sale)?_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale\n            "),(_vm.card.price)?_c('span',[_vm._v(":")]):_vm._e()]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[(_vm.card.price)?_c('span',[_vm._v("$")]):_vm._e(),_vm._v(_vm._s(_vm.card.price))])]):_vm._e(),_vm._v(" "),_c('app-knife-image',{attrs:{"image":_vm.card.images[0].image}}),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),(_vm.card.for_sale)?_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_c('i',{staticClass:"fa fa-envelope mr-2",attrs:{"aria-hidden":"true"}}),_vm._v("Order My Knife")]):_vm._e()])])],1)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card",class:{ 'bg-dark': _vm.card.for_sale,  'text-white': _vm.card.for_sale}},[(_vm.card.for_sale)?_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale\n            "),(_vm.card.price)?_c('span',[_vm._v(":")]):_vm._e()]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[(_vm.card.price)?_c('span',[_vm._v("$")]):_vm._e(),_vm._v(_vm._s(_vm.card.price))])]):_vm._e(),_vm._v(" "),_c('app-knife-image',{attrs:{"image":_vm.card.images[0]}}),_vm._v(" "),_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),(_vm.card.for_sale)?_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_c('i',{staticClass:"fa fa-envelope mr-2",attrs:{"aria-hidden":"true"}}),_vm._v("Order My Knife")]):_vm._e()])])],1)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -535,31 +535,31 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 603:
+/***/ 600:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(522);
+var content = __webpack_require__(519);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("8f8c3624", content, true, {});
+var update = __webpack_require__(7)("388ae3ed", content, true, {});
 
 /***/ }),
 
-/***/ 604:
+/***/ 602:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(523);
+var content = __webpack_require__(521);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("1e5f63a6", content, true, {});
+var update = __webpack_require__(7)("6c75dbea", content, true, {});
 
 /***/ }),
 
@@ -573,7 +573,7 @@ var content = __webpack_require__(524);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("0d142582", content, true, {});
+var update = __webpack_require__(7)("1e5f63a6", content, true, {});
 
 /***/ }),
 

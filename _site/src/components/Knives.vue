@@ -38,7 +38,7 @@ export default {
   mounted() {
     for (let i = 0; i < this.knives.length; i++) {
       let cardObject = {
-        images: this.knives[i].images,
+        images: this.knives[i].image_paths,
         content: this.knives[i].description_text,
         for_sale: this.knives[i].for_sale,
         price: this.knives[i].price,

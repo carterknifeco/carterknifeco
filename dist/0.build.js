@@ -7,9 +7,9 @@ webpackJsonp([0],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Build_vue__ = __webpack_require__(498);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3cc1d645_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Build_vue__ = __webpack_require__(585);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3cc1d645_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Build_vue__ = __webpack_require__(587);
 function injectStyle (ssrContext) {
-  __webpack_require__(601)
+  __webpack_require__(603)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -437,7 +437,7 @@ exports.push([module.i, ".form-holder label[data-v-0284e782]{margin-left:.5rem;m
 
 /***/ }),
 
-/***/ 520:
+/***/ 522:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(6)(false);
@@ -643,7 +643,7 @@ module.exports = __webpack_require__.p + "x.png?c47d36bc5902bcbe3d6143b192aa7019
 var Vue = __webpack_require__(67);
 Vue = 'default' in Vue ? Vue['default'] : Vue;
 
-var version = '2.1.0';
+var version = '2.2.2';
 
 var compatible = (/^2\./).test(Vue.version);
 if (!compatible) {
@@ -656,8 +656,10 @@ if (!compatible) {
 
 var HANDLER = '_vue_clickaway_handler';
 
-function bind(el, binding) {
+function bind(el, binding, vnode) {
   unbind(el);
+
+  var vm = vnode.context;
 
   var callback = binding.value;
   if (typeof callback !== 'function') {
@@ -684,10 +686,14 @@ function bind(el, binding) {
   }, 0);
 
   el[HANDLER] = function(ev) {
-    // @NOTE: IE 5.0+
-    // @REFERENCE: https://developer.mozilla.org/en/docs/Web/API/Node/contains
-    if (initialMacrotaskEnded && !el.contains(ev.target)) {
-      return callback(ev);
+    // @NOTE: this test used to be just `el.containts`, but working with path is better,
+    //        because it tests whether the element was there at the time of
+    //        the click, not whether it is there now, that the event has arrived
+    //        to the top.
+    // @NOTE: `.path` is non-standard, the standard way is `.composedPath()`
+    var path = ev.path || (ev.composedPath ? ev.composedPath() : undefined);
+    if (initialMacrotaskEnded && (path ? path.indexOf(el) < 0 : !el.contains(ev.target))) {
+      return callback.call(vm, ev);
     }
   };
 
@@ -816,7 +822,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 585:
+/***/ 587:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -855,13 +861,13 @@ var update = __webpack_require__(7)("7b5c1e7a", content, true, {});
 
 /***/ }),
 
-/***/ 601:
+/***/ 603:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(520);
+var content = __webpack_require__(522);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
