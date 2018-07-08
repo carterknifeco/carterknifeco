@@ -9,7 +9,7 @@
     </div>
     <div class="image-video-toggle" :class="{playing: playing}" @click="playVideo">
       <i class="fa fa-play"></i>
-      <img ref="imageCard" class="card-img" :src="card.image[0]" alt="a picture of a custom made knife">
+      <img ref="imageCard" class="card-img" :src="card.images[0].image" alt="a picture of a custom made knife">
       <div class="embed-responsive" :style="videoHeight">
         <iframe class="embed-responsive-item" :src="videoSource" allowfullscreen allow="autoplay"></iframe>
       </div>
