@@ -7,7 +7,7 @@
             <h3 class="text-warning">
                 <span v-if="card.price">$</span>{{card.price}}</h3>
         </div>
-        <app-knife-image :image="card.images[0]"></app-knife-image>
+        <app-knife-image :image="card.images[0].image_path"></app-knife-image>
         <div class="card-body">
             <blockquote>
                 <p class="card-text">{{card.content}}</p>
