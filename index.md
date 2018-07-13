@@ -91,7 +91,7 @@ knives:
   - images:
       - image_path: /uploads/20180709-114637-3.jpg
     description_text:
-    for_sale: false
+    for_sale: true
     price:
     video_url:
   - images:
