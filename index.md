@@ -104,5 +104,11 @@ knives:
     for_sale: true
     price: '280'
     video_url:
+  - images:
+      - image_path: /uploads/20180709-114726-2.jpg
+    description_text:
+    for_sale: true
+    price:
+    video_url:
 ---
 
