@@ -47,9 +47,4 @@ defaults:
     values:
       layout: "default"
 
-_options:
-  image_path:
-    height: 900
-    resize_style: "stretch"
-    mime_type: "image/jpeg"
-    expandable: true
+
