@@ -46,3 +46,10 @@ defaults:
       path: "index.md"
     values:
       layout: "default"
+
+_options:
+  image_path:
+    height: 900
+    resize_style: "contain"
+    mime_type: "image/jpeg"
+    expandable: true
