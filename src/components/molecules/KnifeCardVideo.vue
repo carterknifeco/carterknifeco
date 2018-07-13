@@ -14,7 +14,7 @@
         <iframe class="embed-responsive-item" :src="videoSource" allowfullscreen allow="autoplay"></iframe>
       </div>
     </div>
-    <div class="card-body">
+    <div class="card-body" v-if="card.content || card.for_sale">
       <blockquote>
         <p class="card-text">{{card.content}}</p>
         <a v-if="card.for_sale" :href="mailToBody" target="_blank" class="btn btn-warning card-btn mt-3 mb-1">

@@ -8,7 +8,7 @@
                 <span v-if="card.price">$</span>{{card.price}}</h3>
         </div>
         <app-knife-image :image="card.images[0].image_path"></app-knife-image>
-        <div class="card-body">
+        <div class="card-body" v-if="card.content || card.for_sale">
             <blockquote>
                 <p class="card-text">{{card.content}}</p>
                 <a v-if="card.for_sale" :href="mailToBody" target="_blank" class="btn btn-warning card-btn mt-3 mb-1">
