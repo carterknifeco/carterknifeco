@@ -89,7 +89,7 @@ knives:
     price:
     video_url:
   - images:
-      - image_path:
+      - image_path: /uploads/20180709-114637-3.jpg
     description_text:
     for_sale: false
     price:
