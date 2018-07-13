@@ -89,8 +89,7 @@ knives:
     price:
     video_url:
   - images:
-      - image_path: /uploads/20180709-114109.jpg
-      - image_path: /uploads/20180709-114121.jpg
+      - image_path: /uploads/20180709-114109-3.jpg
     description_text: |-
       Drop Point
       Steel: D2 high carbon
