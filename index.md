@@ -89,24 +89,18 @@ knives:
     price:
     video_url:
   - images:
-      - image_path: /uploads/20180709-114637-3.jpg
-    description_text:
-    for_sale: true
-    price:
-    video_url:
-  - images:
       - image_path: /uploads/20180709-114726-2.jpg
-    description_text:
+    description_text: >-
+      8 inch bowie style blade in D2 steel dressed with figured walnut and
+      brass.
     for_sale: true
-    price:
+    price: $260
     video_url:
   - images:
       - image_path: /uploads/20180709-114109-3.jpg
-    description_text: |-
-      Drop Point
-      Steel: D2 high carbon
-      Handle: Maple burl with nickel silver guard and pins.
-      Leather: Horween
+    description_text: >-
+      7 1/2 inch total drop point blade in D2 steel dressed with maple burl and
+      nickel silver
     for_sale: true
     price: '280'
     video_url:
