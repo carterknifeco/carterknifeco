@@ -104,5 +104,27 @@ knives:
     for_sale: true
     price: '280'
     video_url:
+  - images:
+      - image_path: /uploads/img-20180812-135655-908.jpg
+    description_text: >-
+      8 inch total drop point blade in 1084 steel dressed with ironwood and
+      brass
+    for_sale: true
+    price: '280'
+    video_url:
+  - images:
+      - image_path: /uploads/img-20180812-135317-706.jpg
+    description_text: 8 inch total drop point blade in 1084 steel dressed with antler and copper
+    for_sale: true
+    price: $340
+    video_url:
+  - images:
+      - image_path: /uploads/img-20180812-135142-891.jpg
+    description_text: >-
+      7 1/2 inch total drop point blade in D2 steel dressed with black ash and
+      brass.
+    for_sale: true
+    price: $260
+    video_url:
 ---
 
