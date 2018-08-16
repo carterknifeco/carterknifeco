@@ -3,7 +3,11 @@
     <!-- <app-jumbotron :hero="hero"></app-jumbotron> -->
     <b-container fluid id="knives">
       <b-card-group columns>
-        <app-knife-card v-for="(card, index) in cards" :key="index" :card="card" :index="index"></app-knife-card>
+        <app-knife-card v-for="(card, index) in forSale" :key="index" :card="card" :index="index"></app-knife-card>
+      </b-card-group>
+      <hr style="margin-bottom:4rem">
+      <b-card-group columns>
+        <app-knife-card v-for="(card, index) in forShow" :key="index" :card="card" :index="index"></app-knife-card>
       </b-card-group>
     </b-container>
   </div>
@@ -23,7 +27,8 @@ export default {
         title: "knives",
         scrollTo: "#knives"
       },
-      cards: []
+      forSale: [],
+      forShow: []
     };
   },
   components: {
@@ -44,7 +49,12 @@ export default {
         price: this.knives[i].price,
         video: this.knives[i].video_url
       };
-      this.cards.push(cardObject);
+      if (cardObject.for_sale) {
+        console.log(cardObject);
+        this.forSale.push(cardObject);
+      } else {
+        this.forShow.push(cardObject);
+      }
     }
   }
 };
