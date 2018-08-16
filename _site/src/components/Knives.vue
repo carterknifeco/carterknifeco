@@ -5,7 +5,7 @@
       <b-card-group columns>
         <app-knife-card v-for="(card, index) in forSale" :key="index" :card="card" :index="index"></app-knife-card>
       </b-card-group>
-      <hr style="margin-bottom:4rem">
+      <hr style="margin:4rem 0">
       <b-card-group columns>
         <app-knife-card v-for="(card, index) in forShow" :key="index" :card="card" :index="index"></app-knife-card>
       </b-card-group>

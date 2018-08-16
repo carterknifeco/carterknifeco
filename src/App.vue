@@ -33,7 +33,6 @@ export default {
   mounted() {
     for (let knife of this.$root.$data.knives) {
       for (let image of knife.images) {
-        console.log(image);
         var pre_cached_image = new Image();
         pre_cached_image.src = image.image_path;
       }
