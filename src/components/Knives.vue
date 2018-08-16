@@ -63,4 +63,12 @@ export default {
 .container-fluid {
   padding-bottom: 4rem;
 }
+.card-columns {
+  @media (min-width: 576px) {
+    column-count: 2;
+  }
+  @media (min-width: 992px) {
+    column-count: 3;
+  }
+}
 </style>
