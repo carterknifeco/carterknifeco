@@ -31444,9 +31444,9 @@ router.beforeEach(function (to, from, next) {
   next();
 });
 
-let knives = window.knives;
-
-let data = { knives };
+const knives = window.knives;
+const custom = window.custom;
+const data = { knives, custom };
 
 new __WEBPACK_IMPORTED_MODULE_0_vue__["default"]({
   el: "#app",

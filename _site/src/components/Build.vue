@@ -9,6 +9,7 @@ import Jumbotron from "./sections/Jumbotron.vue";
 import BuildKnife from "./sections/BuildKnife.vue";
 var desktop = require("../assets/knives2.jpg");
 var mobile = require("../assets/knives2.jpg");
+const price = window.custom.price;
 export default {
   data() {
     return {
@@ -20,7 +21,7 @@ export default {
         scrollTo: "#knife-builder",
         cornerLogo: {
           text: "custom knife:",
-          price: "$320"
+          price: price
         }
       }
     };
