@@ -127,17 +127,17 @@ knives:
     price: '260'
     video_url:
 custom_knives:
-  price: "$420"
+  price: $420
   build_options:
-    - title: "Blade Shape"
+    - title: Blade Shape
       options:
-        - option: "Drop Point"
-          image_path: 
-        - option: "Fighter"
-          image_path: 
-        - option: "Bowie"
-          image_path: 
-        - option: "Boot Knife"
-          image_path: 
+        - option: Drop Point
+          image_path: /uploads/drop-point.jpg
+        - option: Fighter
+          image_path:
+        - option: Bowie
+          image_path:
+        - option: Boot Knife
+          image_path:
 ---
 
