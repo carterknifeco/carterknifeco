@@ -1,0 +1,10 @@
+{% for i in resized %}
+    {% if forloop.first %}
+        {% assign cardImage = i.path %}
+    {% endif %}
+{% endfor %}
+{% if cardImage %}
+<img src="/{{cardImage}}" alt="{{alt}}">
+{% else %}
+<img src="/{{path}}" alt="{{alt}}">
+{% endif %}

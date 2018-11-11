@@ -26,6 +26,7 @@ github_username:  jekyll
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-responsive-image
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -47,3 +48,14 @@ defaults:
       layout: "default"
 
 
+responsive_image:
+  template: _includes/atoms/responsive-image.html
+  sizes:
+    - width: 360
+  strip: true
+  save_to_source: true
+  output_path_format: assets/resized/%{filename}.%{extension}
+  resize_all: true
+  extra_images:
+    - uploads/*.{jpeg,jpg}
+    - uploads/*.png

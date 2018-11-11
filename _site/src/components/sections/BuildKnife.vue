@@ -8,14 +8,12 @@
               <h4 class="card-title-strip mb-0">{{step.title}}</h4>
               <app-build-image :step="step"></app-build-image>
               <div class="card-footer">
-                <b-form-select v-model="step.selected" :options="step.options">
-                </b-form-select>
+                <b-form-select v-model="step.selected" :options="step.options"></b-form-select>
               </div>
             </div>
           </b-col>
           <div class="col-12 col-md-12 col-lg-6 margin-top half half-to-full">
-            <label>Name:
-            </label>
+            <label>Name:</label>
             <b-form-input v-model="user.name" type="text" placeholder="Enter name"></b-form-input>
           </div>
           <div class="col-12 col-md-12 col-lg-6 margin-top half half-to-full">
@@ -31,8 +29,7 @@
             <b-form-input v-model="user.city" type="text" placeholder="City"></b-form-input>
           </div>
           <div class="col-12 col-md-12 col-lg-6 margin-top half">
-            <label>State:
-            </label>
+            <label>State:</label>
             <b-form-input v-model="user.state" type="text" placeholder="State"></b-form-input>
           </div>
           <div class="col-12 col-md-12 col-lg-6 margin-top half">
@@ -47,14 +44,30 @@
                 <span>My Order:</span>
               </label>
               <div class="input-group">
-                <textarea :rows="textareaRows" id="receipt" type="text" class="form-control" ref="orderInput" v-model="totalOrder"></textarea>
+                <textarea
+                  :rows="textareaRows"
+                  id="receipt"
+                  type="text"
+                  class="form-control"
+                  ref="orderInput"
+                  v-model="totalOrder"
+                ></textarea>
               </div>
-              <button class="btn btn-warning mt-3" ref="popover" @click="selectAndCopy" v-b-popover="'Copied!'" v-on-clickaway="closePopOver">
-                <i class="fa fa-clipboard mr-2" aria-hidden="true"></i>Copy My Order</button>
+              <button
+                class="btn btn-warning mt-3"
+                ref="popover"
+                @click="selectAndCopy"
+                v-b-popover="'Copied!'"
+                v-on-clickaway="closePopOver"
+              >
+                <i class="fa fa-clipboard mr-2" aria-hidden="true"></i>Copy My Order
+              </button>
               <a id="mailOrder" class="btn btn-primary mt-3" :href="mailToBody" target="_blank">
                 <i class="fa fa-envelope mr-2" aria-hidden="true"></i>Email My Order
               </a>
-              <label class="mt-3 mb-0">Each blade is hand shaped and beveled, and given a unique piece of wood for the handle.</label>
+              <label
+                class="mt-3 mb-0"
+              >Each blade is hand shaped and beveled, and given a unique piece of wood for the handle.</label>
             </div>
           </div>
         </div>
@@ -89,6 +102,18 @@ var placeholder = require("../../assets/build/Handle.jpg");
 var placeholder = require("../../assets/build/Pin.jpg");
 var placeholder = require("../../assets/build/PinAlt.jpg");
 
+let buildOptions = window.custom.build_options.map(category => {
+  category.selected = category.options[0].title;
+  category.options.map(option => {
+    option.value = option.title;
+    option.text = option.title;
+    return option;
+  });
+  category.grow = false;
+  return category;
+});
+buildOptions = JSON.parse(JSON.stringify(buildOptions));
+
 import { mixin as clickaway } from "vue-clickaway";
 import BuildImage from "../molecules/BuildImage.vue";
 export default {
@@ -105,7 +130,8 @@ export default {
         address: "",
         zip: ""
       },
-      buildSteps: [
+      buildSteps: buildOptions,
+      buildStepsFacade: [
         {
           grow: false,
           title: "Blade Shape",

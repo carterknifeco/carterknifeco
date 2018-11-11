@@ -131,13 +131,57 @@ custom_knives:
   build_options:
     - title: Blade Shape
       options:
-        - option: Drop Point
+        - title: Drop Point
           image_path: /uploads/drop-point.jpg
-        - option: Fighter
-          image_path:
-        - option: Bowie
-          image_path:
-        - option: Boot Knife
-          image_path:
+        - title: Fighter
+          image_path: /uploads/Fighter.jpg
+        - title: Bowie
+          image_path: /uploads/Bowie.jpg
+        - title: Boot Knife
+          image_path: /uploads/Boot Knife.jpg
+    - title: Finish Style
+      options:
+        - title: Rough Grind
+          image_path: /uploads/Rough Grind.jpg
+        - title: Forge Mark
+          image_path: /uploads/Forge Mark.jpg
+        - title: Grey Etched
+          image_path: /uploads/Grey Etched.jpg
+        - title: Buffed Grind
+          image_path: /uploads/Buffed Grind.jpg
+    - title: Blade Length
+      options:
+        - title: Medium (4 - 4.25”)
+          image_path: /uploads/Blade Medium (4 - 4.25”).jpg
+        - title: Small (3.5 - 4”)
+          image_path: /uploads/Blade Small (3.5 - 4”).jpg
+        - title: Large (4.25 - 4.75”)
+          image_path: /uploads/Blade Large (4.25 - 4.75”).jpg
+    - title: Handle Length
+      options:
+        - title: Small (3.75 - 4”)
+          image_path: /uploads/Small (3.75 - 4”).jpg
+        - title: Medium (4 - 4.25”)
+          image_path: /uploads/Medium (4 - 4.25”).jpg
+        - title: Large (4.25 - 4.75”)
+          image_path: /uploads/Large (4.25 - 4.75”).jpg
+    - title: Handle Material
+      options:
+        - title: Maple
+          image_path: /uploads/Maple.jpg
+        - title: Buckeye
+          image_path: /uploads/Buckeye.jpg
+        - title: Ironwood
+          image_path: /uploads/Ironwood.jpg
+        - title: Walnut
+          image_path: /uploads/Walnut.jpg
+    - title: Finger Guard
+      options:
+        - title: Brass
+          image_path: /uploads/Brass.jpg
+        - title: Nickel Silver
+          image_path: /uploads/Nickel Silver.jpg
+        - title: Copper
+          image_path: /uploads/Copper.jpg
 ---
 

@@ -1,10 +1,16 @@
 <template>
   <div>
-    <div v-for="(option, index) in step.options" :key="index" class="overlay" @click="growImage()" :class="step.selected == option.value ? 'showMe' : ''">
-      <img class="card-img" :src="option.src ? `/dist/${option.src}` : `/dist/${option.value}.jpg`" :img-alt="step.selected">
+    <div
+      v-for="(option, index) in step.options"
+      :key="index"
+      class="overlay"
+      @click="growImage()"
+      :class="step.selected == option.value ? 'showMe' : ''"
+    >
+      <img class="card-img" :src="getThumb(option.image_path)" :img-alt="step.selected">
       <div class="large-overlay" :class="{grow : growMe == true}">
         <div class="image-holder">
-          <img class="card-img" :src="option.src ? `/dist/${option.src}` : `/dist/${option.value}.jpg`" :img-alt="option.value">
+          <img class="card-img" :src="option.image_path" :img-alt="option.value">
         </div>
       </div>
     </div>
@@ -16,6 +22,9 @@
 var cursor = require("../../assets/x.svg");
 var cursor2 = require("../../assets/x.png");
 export default {
+  mounted() {
+    console.log(this.step);
+  },
   props: ["step"],
   data() {
     return {
@@ -30,14 +39,29 @@ export default {
     growMe() {
       let growMe = this.grow;
       return growMe;
+    },
+    selected() {
+      return this.step.selected;
     }
   },
   methods: {
-    getImageSrc(image) {
-      return `/dist/${image}.jpg`;
+    extractFileFromPath(fullPath) {
+      if (fullPath) {
+        var startIndex =
+          fullPath.indexOf("\\") >= 0
+            ? fullPath.lastIndexOf("\\")
+            : fullPath.lastIndexOf("/");
+        var filename = fullPath.substring(startIndex);
+        if (filename.indexOf("\\") === 0 || filename.indexOf("/") === 0) {
+          filename = filename.substring(1);
+        }
+        return filename;
+      }
     },
-    getThumbSrc(image) {
-      return `/dist/thumbs - ${image}.jpg`;
+    getThumb(image) {
+      const fileName = this.extractFileFromPath(image);
+      console.log(fileName);
+      return `/assets/resized/${fileName}`;
     },
     growImage() {
       this.grow = !this.grow;
