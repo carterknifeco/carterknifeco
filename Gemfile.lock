@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/tealicious/jekyll-responsive-image.git
+  remote: https://github.com/carterknifeco/jekyll-responsive-image.git
   revision: c1a6b9a584436e5776c82da50ec0d1c28bfcac98
   specs:
     jekyll-responsive-image (1.5.2)

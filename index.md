@@ -88,7 +88,6 @@ knives:
     for_sale: false
     price:
     video_url:
-<<<<<<< HEAD
   - images:
       - image_path: /uploads/20180709-114726-2.jpg
     description_text: >-
@@ -184,7 +183,4 @@ custom_knives:
           image_path: /uploads/Nickel Silver.jpg
         - title: Copper
           image_path: /uploads/Copper.jpg
-=======
->>>>>>> c654b4b0aa679f642c507ca571b9142268437655
 ---
-
