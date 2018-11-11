@@ -7,9 +7,9 @@ webpackJsonp([3],{
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Life_vue__ = __webpack_require__(500);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_928528d6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Life_vue__ = __webpack_require__(594);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_928528d6_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Life_vue__ = __webpack_require__(569);
 function injectStyle (ssrContext) {
-  __webpack_require__(607)
+  __webpack_require__(582)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -44,8 +44,8 @@ var Component = normalizeComponent(
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sections_Jumbotron_vue__ = __webpack_require__(155);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sections_InstaLife_vue__ = __webpack_require__(578);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sections_InstaKnife_vue__ = __webpack_require__(577);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sections_InstaLife_vue__ = __webpack_require__(553);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sections_InstaKnife_vue__ = __webpack_require__(552);
 //
 //
 //
@@ -177,7 +177,7 @@ var mobile = __webpack_require__(158);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__molecules_InstaFeedCard_vue__ = __webpack_require__(515);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__molecules_InstaFeedCard_vue__ = __webpack_require__(514);
 //
 //
 //
@@ -204,7 +204,7 @@ var mobile = __webpack_require__(158);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__molecules_InstaFeedCard_vue__ = __webpack_require__(515);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__molecules_InstaFeedCard_vue__ = __webpack_require__(514);
 //
 //
 //
@@ -227,15 +227,15 @@ var mobile = __webpack_require__(158);
 
 /***/ }),
 
-/***/ 515:
+/***/ 514:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_InstaFeedCard_vue__ = __webpack_require__(505);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e7e7b616_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaFeedCard_vue__ = __webpack_require__(596);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e7e7b616_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaFeedCard_vue__ = __webpack_require__(571);
 function injectStyle (ssrContext) {
-  __webpack_require__(608)
+  __webpack_require__(583)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -295,13 +295,13 @@ exports.push([module.i, ".spinner[data-v-e7e7b616]{position:relative;width:100px
 
 /***/ }),
 
-/***/ 577:
+/***/ 552:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_InstaKnife_vue__ = __webpack_require__(510);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_297c2e11_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaKnife_vue__ = __webpack_require__(583);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_297c2e11_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaKnife_vue__ = __webpack_require__(559);
 var normalizeComponent = __webpack_require__(5)
 /* script */
 
@@ -330,13 +330,13 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 578:
+/***/ 553:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_InstaLife_vue__ = __webpack_require__(511);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_517c72bf_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaLife_vue__ = __webpack_require__(588);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_517c72bf_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_InstaLife_vue__ = __webpack_require__(564);
 var normalizeComponent = __webpack_require__(5)
 /* script */
 
@@ -365,7 +365,7 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 583:
+/***/ 559:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -376,7 +376,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 588:
+/***/ 564:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -387,7 +387,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 594:
+/***/ 569:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -398,7 +398,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 596:
+/***/ 571:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -409,7 +409,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ 607:
+/***/ 582:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -423,7 +423,7 @@ var update = __webpack_require__(7)("77b6f7c2", content, true, {});
 
 /***/ }),
 
-/***/ 608:
+/***/ 583:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag

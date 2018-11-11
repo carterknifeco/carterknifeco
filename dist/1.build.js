@@ -1,15 +1,15 @@
 webpackJsonp([1],{
 
-/***/ 166:
+/***/ 168:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Knives_vue__ = __webpack_require__(499);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Local_vue__ = __webpack_require__(501);
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6f051796_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Knives_vue__ = __webpack_require__(592);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a8103c5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Local_vue__ = __webpack_require__(563);
 function injectStyle (ssrContext) {
-  __webpack_require__(605)
+  __webpack_require__(578)
 }
 var normalizeComponent = __webpack_require__(5)
 /* script */
@@ -22,12 +22,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-6f051796"
+var __vue_scopeId__ = "data-v-4a8103c5"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Knives_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6f051796_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Knives_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Local_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a8103c5_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Local_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -39,26 +39,13 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ 491:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "x.svg?658f1a6dc795abba418d363e7f8abef6";
-
-/***/ }),
-
-/***/ 499:
+/***/ 501:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sections_KnifeGrid_vue__ = __webpack_require__(579);
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sections_Jumbotron_vue__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sections_Map_vue__ = __webpack_require__(555);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapMarkers__ = __webpack_require__(515);
 //
 //
 //
@@ -66,221 +53,366 @@ module.exports = __webpack_require__.p + "x.svg?658f1a6dc795abba418d363e7f8abef6
 //
 //
 
-// import Jumbotron from "./sections/Jumbotron.vue";
 
-// var desktop = require("../assets/knives.jpg");
-// var mobile = require("../assets/knives.jpg");
+
+var desktop = __webpack_require__(157);
+var mobile = __webpack_require__(157);
+var bend = __webpack_require__(529);
+var bendRing = __webpack_require__(530);
+var bendText = __webpack_require__(531);
+var bendTextInner = __webpack_require__(532);
+var bendTextOuter = __webpack_require__(533);
+
+
 /* harmony default export */ __webpack_exports__["a"] = ({
   data() {
     return {
       hero: {
-        // desktop: desktop,
-        // mobile: mobile,
-        class: "overlay knives",
-        title: "knives",
-        scrollTo: "#knives"
+        desktop: desktop,
+        mobile: mobile,
+        class: "overlay bus",
+        title: "buy locally",
+        subtitle: "in Bend, OR",
+        smallLogo: {
+          ring: bendRing,
+          text: {
+            whole: bendText,
+            inner: bendTextInner,
+            outer: bendTextOuter
+          },
+          background: bend
+        },
+        subtitleClass: "bend",
+        scrollTo: "#map"
+      }
+    };
+  },
+  components: {
+    appJumbotron: __WEBPACK_IMPORTED_MODULE_0__sections_Jumbotron_vue__["a" /* default */],
+    appMap: __WEBPACK_IMPORTED_MODULE_1__sections_Map_vue__["a" /* default */]
+  }
+});
+
+/***/ }),
+
+/***/ 513:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue2_google_maps__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue2_google_maps___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue2_google_maps__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mapStyles__ = __webpack_require__(516);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+//import mapMarkers from "../../mapMarkers";
+const mapMarkers = JSON.parse(JSON.stringify(window.local_sellers));
+var infoWindowIcon = __webpack_require__(534);
+__WEBPACK_IMPORTED_MODULE_1_vue__["default"].use(__WEBPACK_IMPORTED_MODULE_0_vue2_google_maps__, {
+  load: {
+    key: "AIzaSyB-hzCedQopupNEWRNzGCPufWStmEgH0Yo",
+    v: "OPTIONAL VERSION NUMBER"
+  }
+});
+/* harmony default export */ __webpack_exports__["a"] = ({
+  data() {
+    return {
+      icon: "//maps.google.com/mapfiles/ms/icons/red.png",
+      infoWindowLogo: infoWindowIcon,
+      infoContent: "",
+      infoSubContent: "",
+      business_name: "",
+      map_url: "",
+      web_url: "",
+      infoWindowPos: {
+        lat: 0,
+        lng: 0
       },
-      forSale: [],
-      forShow: []
-    };
-  },
-  components: {
-    // appJumbotron: Jumbotron,
-    appKnifeCard: __WEBPACK_IMPORTED_MODULE_0__sections_KnifeGrid_vue__["a" /* default */]
-  },
-  computed: {
-    knives() {
-      return this.$root.$data.knives;
-    }
-  },
-  mounted() {
-    for (let i = 0; i < this.knives.length; i++) {
-      let cardObject = {
-        images: this.knives[i].images,
-        content: this.knives[i].description_text,
-        for_sale: this.knives[i].for_sale,
-        price: this.knives[i].price,
-        video: this.knives[i].video_url
-      };
-      if (cardObject.for_sale) {
-        console.log(cardObject);
-        this.forSale.push(cardObject);
-      } else {
-        this.forShow.push(cardObject);
-      }
-    }
-  }
-});
-
-/***/ }),
-
-/***/ 506:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__KnifeImage_vue__ = __webpack_require__(575);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  props: ["card", "cardBody", "mailToBody"],
-  components: { appKnifeImage: __WEBPACK_IMPORTED_MODULE_0__KnifeImage_vue__["a" /* default */] }
-});
-
-/***/ }),
-
-/***/ 507:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  data() {
-    return {
-      playing: false,
-      videoHeight: {
-        height: "0px"
-      }
-    };
-  },
-  props: ["card", "cardBody", "mailToBody"],
-  computed: {
-    videoSource() {
-      var src = this.netNewUrl(this.card.video);
-      if (this.playing) {
-        src += "?rel=0&autoplay=1";
-      }
-      return src;
-    }
-  },
-  methods: {
-    playVideo() {
-      this.playing = true;
-      this.videoHeight.height = `${this.$refs.imageCard.height}px`;
-    },
-    netNewUrl(url) {
-      var regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
-      var match = url.match(regExp);
-      if (match && match[2].length == 11) {
-        return `https://www.youtube.com/embed/${match[2]}`; //change the video source if needed
-      } else {
-        return url; //return the original source if not
-      }
-    }
-  }
-});
-
-/***/ }),
-
-/***/ 508:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  props: ["image"],
-  data() {
-    return {
-      grow: false
+      infoWinOpen: false,
+      currentMidx: null,
+      infoOptions: {
+        pixelOffset: {
+          width: 0,
+          height: -35
+        }
+      },
+      center: {
+        lat: 44.0508424,
+        lng: -121.3125494
+      },
+      markers: mapMarkers,
+      styles: __WEBPACK_IMPORTED_MODULE_2__mapStyles__["a" /* default */]
     };
   },
   methods: {
-    growImage() {
-      this.grow = !this.grow;
+    toggleInfoWindow: function (marker, idx) {
+      this.infoWindowPos = marker.position;
+      this.$refs.map.panTo(marker.position);
+      this.$refs.mapContainer.scrollIntoView();
+      this.infoContent = marker.street;
+      this.infoSubContent = marker.address;
+      this.map_url = marker.map_url;
+      this.web_url = marker.web_url;
+      this.business_name = marker.business_name;
+      if (this.currentMidx == idx) {
+        this.infoWinOpen = !this.infoWinOpen;
+      } else {
+        this.infoWinOpen = true;
+        this.currentMidx = idx;
+      }
     }
   }
 });
 
 /***/ }),
 
-/***/ 512:
+/***/ 515:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__molecules_KnifeCardImage_vue__ = __webpack_require__(573);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__molecules_KnifeCardVideo_vue__ = __webpack_require__(574);
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["a"] = ({
-  components: {
-    appKnifeCardWithImage: __WEBPACK_IMPORTED_MODULE_0__molecules_KnifeCardImage_vue__["a" /* default */],
-    appKnifeCardWithVideo: __WEBPACK_IMPORTED_MODULE_1__molecules_KnifeCardVideo_vue__["a" /* default */]
-  },
-  props: ["card"],
-  computed: {
-    cardBody() {
-      return `Hello Mathhew! I'd like to order the following knife from you:%0D%0A%0D%0A${this.card.content}`;
+/* unused harmony default export */ var _unused_webpack_default_export = ([{
+    position: {
+        lat: 44.0508424,
+        lng: -121.3125494
     },
-    mailToBody() {
-      let mailToHref = `mailto:carterknifeco@gmail.com?subject=Custom, ready-to-order knife purchase from carterknifeco.com&body=${this.cardBody}`;
-      return mailToHref;
-    }
-  }
-});
+    mapLink: "https://goo.gl/maps/tggfvP6J24u",
+    webLink: "https://spokenmoto.com/",
+    business: "Spoken Moto",
+    infoText: "310 SW Industrial Way,",
+    infoSubText: "Bend, OR 97702"
+}, {
+    position: {
+        lat: 44.369298,
+        lng: -121.344898
+    },
+    mapLink: "https://goo.gl/maps/zL84wj7WE2q",
+    webLink: "http://www.rainshadoworganics.com/",
+    business: "Rainshadow Organics Country Store",
+    infoText: "71290 Holmes Road,",
+    infoSubText: "Sisters, Oregon 97759"
+}]);
 
 /***/ }),
 
-/***/ 519:
+/***/ 516:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ([{
+  elementType: "geometry",
+  stylers: [{
+    color: "#f5f5f5"
+  }]
+}, {
+  elementType: "labels.icon",
+  stylers: [{
+    visibility: "off"
+  }]
+}, {
+  elementType: "labels.text.fill",
+  stylers: [{
+    color: "#616161"
+  }]
+}, {
+  elementType: "labels.text.stroke",
+  stylers: [{
+    color: "#f5f5f5"
+  }]
+}, {
+  featureType: "administrative.land_parcel",
+  stylers: [{
+    visibility: "off"
+  }]
+}, {
+  featureType: "administrative.land_parcel",
+  elementType: "labels.text.fill",
+  stylers: [{
+    color: "#bdbdbd"
+  }]
+}, {
+  featureType: "administrative.neighborhood",
+  stylers: [{
+    visibility: "off"
+  }]
+}, {
+  featureType: "poi",
+  elementType: "geometry",
+  stylers: [{
+    color: "#eeeeee"
+  }]
+}, {
+  featureType: "poi",
+  elementType: "labels.text",
+  stylers: [{
+    visibility: "on"
+  }]
+}, {
+  featureType: "poi",
+  elementType: "labels.text.fill",
+  stylers: [{
+    color: "#757575"
+  }]
+}, {
+  featureType: "poi.park",
+  elementType: "geometry",
+  stylers: [{
+    color: "#e5e5e5"
+  }]
+}, {
+  featureType: "poi.park",
+  elementType: "labels.text.fill",
+  stylers: [{
+    color: "#9e9e9e"
+  }]
+}, {
+  featureType: "road",
+  elementType: "geometry",
+  stylers: [{
+    color: "#ffffff"
+  }]
+}, {
+  featureType: "road",
+  elementType: "labels",
+  stylers: [{
+    visibility: "on"
+  }]
+}, {
+  featureType: "road.arterial",
+  elementType: "labels.text.fill",
+  stylers: [{
+    color: "#757575"
+  }]
+}, {
+  featureType: "road.highway",
+  elementType: "geometry",
+  stylers: [{
+    color: "#dadada"
+  }]
+}, {
+  featureType: "road.highway",
+  elementType: "labels.text.fill",
+  stylers: [{
+    color: "#616161"
+  }]
+}, {
+  featureType: "road.local",
+  elementType: "labels.text.fill",
+  stylers: [{
+    color: "#9e9e9e"
+  }]
+}, {
+  featureType: "transit.line",
+  elementType: "geometry",
+  stylers: [{
+    color: "#e5e5e5"
+  }]
+}, {
+  featureType: "transit.station",
+  elementType: "geometry",
+  stylers: [{
+    color: "#eeeeee"
+  }]
+}, {
+  featureType: "water",
+  elementType: "geometry",
+  stylers: [{
+    color: "#c9c9c9"
+  }]
+}, {
+  featureType: "water",
+  elementType: "labels.text",
+  stylers: [{
+    visibility: "off"
+  }]
+}, {
+  featureType: "water",
+  elementType: "labels.text.fill",
+  stylers: [{
+    color: "#9e9e9e"
+  }]
+}]);
+
+/***/ }),
+
+/***/ 518:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(6)(false);
@@ -288,7 +420,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, ".embed-responsive[data-v-30a186e0]:before{display:none}.image-video-toggle[data-v-30a186e0]{position:relative}.image-video-toggle[data-v-30a186e0]:before{content:\"\";position:absolute;width:100%;height:100%;top:0;left:0;background:rgba(0,0,0,.33)}.image-video-toggle .embed-responsive[data-v-30a186e0]{display:none}.image-video-toggle .fa-play[data-v-30a186e0]{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);color:#fff;font-size:3rem}.image-video-toggle.playing .embed-responsive[data-v-30a186e0]{display:block}.image-video-toggle.playing .card-img[data-v-30a186e0],.image-video-toggle.playing .fa-play[data-v-30a186e0],.image-video-toggle.playing[data-v-30a186e0]:before{display:none}", ""]);
+exports.push([module.i, ".card .card-header[data-v-035b87ae],.card a[data-v-035b87ae]{display:flex;align-items:center}.card .card-header:hover b[data-v-035b87ae],.card a:hover b[data-v-035b87ae]{text-decoration:underline}.card a[data-v-035b87ae]{color:#007bff}.card a[data-v-035b87ae]:hover{color:#0056b3;text-decoration:underline}.card[data-v-035b87ae]:hover{transform:none;box-shadow:0 2px 10px 0 rgba(0,0,0,.05),0 3px 7px -2px rgba(0,0,0,.08),0 1px 12px 0 rgba(0,0,0,.09)}.infoWindow[data-v-035b87ae]{display:flex;flex-flow:row wrap;flex-direction:row;justify-content:flex-start;align-items:center}.carterknifecoLogo[data-v-035b87ae]{width:50px;margin:1rem;margin-left:.33rem}@media (max-width:769px){.carterknifecoLogo[data-v-035b87ae]{display:none}}#map[data-v-035b87ae]{position:absolute;top:-62px}.vue-map-container[data-v-035b87ae]{height:100vh;height:calc(101vh - 50px);height:calc(100vh - 85px);margin:0 0 57px;padding:0;box-shadow:0 2px 10px 0 rgba(0,0,0,.05),0 3px 7px -2px rgba(0,0,0,.08),0 1px 12px 0 rgba(0,0,0,.09)}@media (max-width:769px){.vue-map-container[data-v-035b87ae]{margin:0 0 2rem}}.vue-map p[data-v-035b87ae]{margin:.5rem 0;font-size:1rem}.location-boxes[data-v-035b87ae]{line-height:1.35}@media screen and (min-width:768px){.location-boxes[data-v-035b87ae]{position:-webkit-sticky;position:sticky;top:0;padding-top:60px;margin-top:-60px}}", ""]);
 
 // exports
 
@@ -298,56 +430,70 @@ exports.push([module.i, ".embed-responsive[data-v-30a186e0]:before{display:none}
 /***/ 522:
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(156);
 exports = module.exports = __webpack_require__(6)(false);
 // imports
 
 
 // module
-exports.push([module.i, ".overlay[data-v-5d843f9d]{cursor:pointer}.overlay.showMe[data-v-5d843f9d]{display:block}.overlay .card-img[data-v-5d843f9d]{border-radius:0}.large-overlay[data-v-5d843f9d]{display:none;cursor:default}.large-overlay.grow[data-v-5d843f9d]{position:fixed;z-index:9999;top:0;left:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.5)}.large-overlay.grow .image-holder[data-v-5d843f9d]{position:relative}.large-overlay.grow .image-holder[data-v-5d843f9d]:before{content:url(" + escape(__webpack_require__(491)) + ");line-height:1;position:absolute;top:0;right:0;color:#fff;cursor:pointer;background:#dc3545}@media (orientation:portrait){.large-overlay.grow .card-img[data-v-5d843f9d]{width:100%;height:auto}}@media (orientation:landscape){.large-overlay.grow .card-img[data-v-5d843f9d]{width:auto;height:90%;height:100vh}}.large-overlay.grow .close-icon[data-v-5d843f9d]{position:absolute;right:0;top:0;transform:translate(-100%,100%)}", ""]);
+exports.push([module.i, "svg[data-v-4a8103c5]:not(:root){overflow:visible}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 524:
+/***/ 529:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(6)(false);
-// imports
-
-
-// module
-exports.push([module.i, ".container-fluid[data-v-6f051796]{padding-bottom:4rem}@media (min-width:576px){.card-columns[data-v-6f051796]{column-count:2}}@media (min-width:992px){.card-columns[data-v-6f051796]{column-count:3}}", ""]);
-
-// exports
-
+module.exports = __webpack_require__.p + "bend.png?2159efdf1c68421cea698196e213d135";
 
 /***/ }),
 
-/***/ 528:
+/***/ 530:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(6)(false);
-// imports
-
-
-// module
-exports.push([module.i, "#knives .card{cursor:default;box-shadow:none}#knives .card h3,#knives .card h4{margin:0}#knives .card:hover{transform:none;box-shadow:none}#knives .card-body{min-height:0;padding:1rem 1.25rem;padding-bottom:0}#knives .card-body p{font-family:Open Sans;margin-bottom:0}#knives .card-img{border-radius:0}#knives .card-header{display:flex;justify-content:space-between;align-items:center}", ""]);
-
-// exports
-
+module.exports = __webpack_require__.p + "bendRing.png?d67349f835837d7d85a1625f074cfd5f";
 
 /***/ }),
 
-/***/ 573:
+/***/ 531:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bendText.png?11d0eb0c0c891850985ad72905bc7c74";
+
+/***/ }),
+
+/***/ 532:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bendTextInner.png?0ca505a7571ae825bb2fd71801afa50f";
+
+/***/ }),
+
+/***/ 533:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bendTextOuter.png?18f0efb4251d11fc1a6fae589146d715";
+
+/***/ }),
+
+/***/ 534:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "logoBlackFullSmall.png?9ffb45e3c88a89c4142be09862d948ff";
+
+/***/ }),
+
+/***/ 555:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeCardImage_vue__ = __webpack_require__(506);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Map_vue__ = __webpack_require__(513);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a4b267a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardImage_vue__ = __webpack_require__(586);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_035b87ae_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Map_vue__ = __webpack_require__(557);
+function injectStyle (ssrContext) {
+  __webpack_require__(574)
+}
 var normalizeComponent = __webpack_require__(5)
 /* script */
 
@@ -357,14 +503,14 @@ var normalizeComponent = __webpack_require__(5)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = null
+var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-035b87ae"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeCardImage_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_4a4b267a_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardImage_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Map_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_035b87ae_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Map_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -373,193 +519,46 @@ var Component = normalizeComponent(
 
 /* harmony default export */ __webpack_exports__["a"] = (Component.exports);
 
+
+/***/ }),
+
+/***/ 557:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('b-container',{attrs:{"fluid":""}},[_c('b-row',[_c('b-col',{staticClass:"col-12 col-md-8 col-lg-9"},[_c('span',{ref:"mapContainer",attrs:{"id":"map"}}),_vm._v(" "),_c('gmap-map',{ref:"map",attrs:{"center":_vm.center,"options":{styles: _vm.styles},"zoom":15}},[_c('gmap-info-window',{attrs:{"options":_vm.infoOptions,"position":_vm.infoWindowPos,"opened":_vm.infoWinOpen},on:{"closeclick":function($event){_vm.infoWinOpen=false}}},[_c('div',{staticClass:"infoWindow"},[_c('div',[_c('img',{staticClass:"carterknifecoLogo",attrs:{"src":_vm.infoWindowLogo}})]),_vm._v(" "),_c('div',[_c('p',[_c('a',{attrs:{"href":_vm.web_url,"target":"_blank "}},[_vm._v("\n                  "+_vm._s(_vm.business_name)+"\n                  "),(_vm.web_url)?_c('i',{staticClass:"fa fa-external-link ml-2",attrs:{"aria-hidden":"true "}}):_vm._e()])]),_vm._v(" "),_c('p',[_c('a',{attrs:{"href":_vm.map_url,"target":"_blank "}},[_vm._v("\n                  "+_vm._s(_vm.infoContent)+"\n                  "),_c('br'),_vm._v("\n                  "+_vm._s(_vm.infoSubContent)+"\n                  "),_c('i',{staticClass:"fa fa-map-marker ml-2",attrs:{"aria-hidden":"true "}})])])])])]),_vm._v(" "),_vm._l((_vm.markers),function(m,i){return _c('gmap-marker',{key:i,attrs:{"position":m.position,"clickable":true,"draggable":false,"icon":_vm.icon},on:{"click":function($event){_vm.toggleInfoWindow(m,i)}}})})],2)],1),_vm._v(" "),_c('b-col',{staticClass:"col-12 col-md-4 col-lg-3"},[_c('div',{staticClass:"location-boxes"},_vm._l((_vm.markers),function(m,i){return _c('div',{key:i},[_c('div',{staticClass:"card mb-3",on:{"click":function($event){_vm.toggleInfoWindow(m,i)}}},[_c('div',{staticClass:"card-header"},[_c('i',{staticClass:"text-danger fa fa-map-marker mr-3",attrs:{"aria-hidden":"true "}}),_vm._v("\n              "+_vm._s(m.business_name)+"\n            ")]),_vm._v(" "),_c('ul',{staticClass:"list-group list-group-flush"},[_c('li',{staticClass:"list-group-item"},[_c('a',{attrs:{"href":m.map_url,"target":"_blank "}},[_c('i',{staticClass:"fa fa-car mr-3",attrs:{"aria-hidden":"true"}}),_vm._v("\n                  "+_vm._s(m.street)+",\n                  "),_c('br'),_vm._v("\n                  "+_vm._s(m.address)+"\n                ")])]),_vm._v(" "),(m.web_url)?_c('li',{staticClass:"list-group-item"},[_c('a',{attrs:{"href":m.web_url,"target":"_blank"}},[_c('i',{staticClass:"fa fa-external-link mr-3",attrs:{"aria-hidden":"true"}}),_vm._v("\n                  Website\n                ")])]):_vm._e()])])])}))])],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
+/***/ 563:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('app-jumbotron',{attrs:{"hero":_vm.hero}}),_vm._v(" "),_c('app-map')],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
 /***/ 574:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeCardVideo_vue__ = __webpack_require__(507);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_30a186e0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardVideo_vue__ = __webpack_require__(584);
-function injectStyle (ssrContext) {
-  __webpack_require__(600)
-}
-var normalizeComponent = __webpack_require__(5)
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-30a186e0"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeCardVideo_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_30a186e0_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeCardVideo_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
-
-/***/ }),
-
-/***/ 575:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeImage_vue__ = __webpack_require__(508);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5d843f9d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeImage_vue__ = __webpack_require__(590);
-function injectStyle (ssrContext) {
-  __webpack_require__(603)
-}
-var normalizeComponent = __webpack_require__(5)
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = "data-v-5d843f9d"
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeImage_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_5d843f9d_hasScoped_true_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeImage_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
-
-/***/ }),
-
-/***/ 579:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeGrid_vue__ = __webpack_require__(512);
-/* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_eaa9fd90_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__ = __webpack_require__(597);
-function injectStyle (ssrContext) {
-  __webpack_require__(609)
-}
-var normalizeComponent = __webpack_require__(5)
-/* script */
-
-
-/* template */
-
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = injectStyle
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_KnifeGrid_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_eaa9fd90_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_KnifeGrid_vue__["a" /* default */],
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-
-/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
-
-
-/***/ }),
-
-/***/ 584:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card",class:{ 'bg-dark': _vm.card.for_sale,  'text-white': _vm.card.for_sale}},[(_vm.card.for_sale)?_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale\n      "),(_vm.card.price)?_c('span',[_vm._v(":")]):_vm._e()]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[(_vm.card.price)?_c('span',[_vm._v("$")]):_vm._e(),_vm._v(_vm._s(_vm.card.price))])]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"image-video-toggle",class:{playing: _vm.playing},on:{"click":_vm.playVideo}},[_c('i',{staticClass:"fa fa-play"}),_vm._v(" "),_c('img',{ref:"imageCard",staticClass:"card-img",attrs:{"src":_vm.card.images[0].image_path,"alt":"a picture of a custom made knife"}}),_vm._v(" "),_c('div',{staticClass:"embed-responsive",style:(_vm.videoHeight)},[_c('iframe',{staticClass:"embed-responsive-item",attrs:{"src":_vm.videoSource,"allowfullscreen":"","allow":"autoplay"}})])]),_vm._v(" "),(_vm.card.content || _vm.card.for_sale)?_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),(_vm.card.for_sale)?_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_c('i',{staticClass:"fa fa-envelope mr-2",attrs:{"aria-hidden":"true"}}),_vm._v("Order My Knife")]):_vm._e()])]):_vm._e()])}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
-/***/ 586:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"card",class:{ 'bg-dark': _vm.card.for_sale,  'text-white': _vm.card.for_sale}},[(_vm.card.for_sale)?_c('div',{staticClass:"card-header"},[_c('h3',{staticClass:"text-warning"},[_vm._v("For Sale\n            "),(_vm.card.price)?_c('span',[_vm._v(":")]):_vm._e()]),_vm._v(" "),_c('h3',{staticClass:"text-warning"},[(_vm.card.price)?_c('span',[_vm._v("$")]):_vm._e(),_vm._v(_vm._s(_vm.card.price))])]):_vm._e(),_vm._v(" "),_c('app-knife-image',{attrs:{"image":_vm.card.images[0].image_path}}),_vm._v(" "),(_vm.card.content || _vm.card.for_sale)?_c('div',{staticClass:"card-body"},[_c('blockquote',[_c('p',{staticClass:"card-text"},[_vm._v(_vm._s(_vm.card.content))]),_vm._v(" "),(_vm.card.for_sale)?_c('a',{staticClass:"btn btn-warning card-btn mt-3 mb-1",attrs:{"href":_vm.mailToBody,"target":"_blank"}},[_c('i',{staticClass:"fa fa-envelope mr-2",attrs:{"aria-hidden":"true"}}),_vm._v("Order My Knife")]):_vm._e()])]):_vm._e()],1)}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
-/***/ 590:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"overlay",on:{"click":function($event){_vm.growImage()}}},[_c('img',{staticClass:"card-img",attrs:{"src":_vm.image,"alt":"a picture of a custom made knife"}}),_vm._v(" "),_c('div',{staticClass:"large-overlay",class:{grow : _vm.grow}},[_c('div',{staticClass:"image-holder"},[_c('img',{staticClass:"card-img",attrs:{"src":_vm.image,"img-alt":"a picture of a custom made knife"}})])])])}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
-/***/ 592:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticStyle:{"padding-top":"60px"}},[_c('b-container',{attrs:{"fluid":"","id":"knives"}},[_c('b-card-group',{attrs:{"columns":""}},_vm._l((_vm.forSale),function(card,index){return _c('app-knife-card',{key:index,attrs:{"card":card,"index":index}})})),_vm._v(" "),_c('hr',{staticStyle:{"margin":"4rem 0"}}),_vm._v(" "),_c('b-card-group',{attrs:{"columns":""}},_vm._l((_vm.forShow),function(card,index){return _c('app-knife-card',{key:index,attrs:{"card":card,"index":index}})}))],1)],1)}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
-/***/ 597:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.card.video)?_c('app-knife-card-with-video',{attrs:{"card":_vm.card,"cardBody":_vm.cardBody,"mailToBody":_vm.mailToBody}}):_c('app-knife-card-with-image',{attrs:{"card":_vm.card,"cardBody":_vm.cardBody,"mailToBody":_vm.mailToBody}})}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
-/***/ 600:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(519);
+var content = __webpack_require__(518);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("34928a59", content, true, {});
+var update = __webpack_require__(7)("3fa7f241", content, true, {});
 
 /***/ }),
 
-/***/ 603:
+/***/ 578:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -569,35 +568,7 @@ var content = __webpack_require__(522);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(7)("1e5f63a6", content, true, {});
-
-/***/ }),
-
-/***/ 605:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(524);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(7)("6f438699", content, true, {});
-
-/***/ }),
-
-/***/ 609:
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(528);
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__(7)("0a904042", content, true, {});
+var update = __webpack_require__(7)("23a9319c", content, true, {});
 
 /***/ })
 

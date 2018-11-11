@@ -28,10 +28,11 @@
 
   <body>
     {% assign knives = page.knives | reverse %} {% assign custom =
-    page.custom_knives %}
+    page.custom_knives %} {% assign local_sellers = page.local_sellers %}
     <script>
       window.knives = {{ knives | jsonify }};
       window.custom =  {{ custom | jsonify }};
+      window.local_sellers =  {{ local_sellers | jsonify }};
     </script>
     <div id="app"></div>
     <script src="{{ '/dist/build.js' | relative_url }}?{{site.time | date: '%s%N'}}"></script>

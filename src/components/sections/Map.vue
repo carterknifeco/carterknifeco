@@ -4,26 +4,43 @@
       <b-col class="col-12 col-md-8 col-lg-9">
         <span id="map" ref="mapContainer"></span>
         <gmap-map ref="map" :center="center " :options="{styles: styles}" :zoom="15">
-          <gmap-info-window :options="infoOptions " :position="infoWindowPos " :opened="infoWinOpen" @closeclick="infoWinOpen=false">
+          <gmap-info-window
+            :options="infoOptions "
+            :position="infoWindowPos "
+            :opened="infoWinOpen"
+            @closeclick="infoWinOpen=false"
+          >
             <div class="infoWindow">
               <div>
                 <img class="carterknifecoLogo" :src="infoWindowLogo">
               </div>
               <div>
                 <p>
-                  <a :href="webLink " target="_blank ">{{business}}
-                    <i v-if="webLink" class="fa fa-external-link ml-2" aria-hidden="true "></i>
+                  <a :href="web_url " target="_blank ">
+                    {{business_name}}
+                    <i v-if="web_url" class="fa fa-external-link ml-2" aria-hidden="true "></i>
                   </a>
                 </p>
                 <p>
-                  <a :href="mapLink" target="_blank ">{{infoContent}}<br>{{infoSubContent}}
-                    <i class="fa fa-map-marker ml-2 " aria-hidden="true "></i>
+                  <a :href="map_url" target="_blank ">
+                    {{infoContent}}
+                    <br>
+                    {{infoSubContent}}
+                    <i class="fa fa-map-marker ml-2" aria-hidden="true "></i>
                   </a>
                 </p>
               </div>
             </div>
           </gmap-info-window>
-          <gmap-marker :key="i " v-for="(m, i) in markers" :position="m.position" :clickable="true" :draggable="false" :icon="icon" @click="toggleInfoWindow(m,i)"></gmap-marker>
+          <gmap-marker
+            :key="i "
+            v-for="(m, i) in markers"
+            :position="m.position"
+            :clickable="true"
+            :draggable="false"
+            :icon="icon"
+            @click="toggleInfoWindow(m,i)"
+          ></gmap-marker>
         </gmap-map>
       </b-col>
       <b-col class="col-12 col-md-4 col-lg-3">
@@ -32,16 +49,19 @@
             <div class="card mb-3" @click="toggleInfoWindow(m,i)">
               <div class="card-header">
                 <i class="text-danger fa fa-map-marker mr-3" aria-hidden="true "></i>
-                {{m.business}}
+                {{m.business_name}}
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  <a :href="m.mapLink" target="_blank ">
-                    <i class="fa fa-car mr-3 " aria-hidden="true"></i>{{m.infoText}}<br>{{m.infoSubText}}
+                  <a :href="m.map_url" target="_blank ">
+                    <i class="fa fa-car mr-3" aria-hidden="true"></i>
+                    {{m.street}},
+                    <br>
+                    {{m.address}}
                   </a>
                 </li>
-                <li v-if="m.webLink" class="list-group-item">
-                  <a :href="m.webLink" target="_blank">
+                <li v-if="m.web_url" class="list-group-item">
+                  <a :href="m.web_url" target="_blank">
                     <i class="fa fa-external-link mr-3" aria-hidden="true"></i>
                     Website
                   </a>
@@ -58,7 +78,8 @@
 import * as VueGoogleMaps from "vue2-google-maps";
 import Vue from "vue";
 import mapStyles from "../../mapStyles";
-import mapMarkers from "../../mapMarkers";
+//import mapMarkers from "../../mapMarkers";
+const mapMarkers = JSON.parse(JSON.stringify(window.local_sellers));
 var infoWindowIcon = require("../../assets/logoBlackFullSmall.png");
 Vue.use(VueGoogleMaps, {
   load: {
@@ -73,9 +94,9 @@ export default {
       infoWindowLogo: infoWindowIcon,
       infoContent: "",
       infoSubContent: "",
-      business: "",
-      mapLink: "",
-      webLink: "",
+      business_name: "",
+      map_url: "",
+      web_url: "",
       infoWindowPos: {
         lat: 0,
         lng: 0
@@ -101,11 +122,11 @@ export default {
       this.infoWindowPos = marker.position;
       this.$refs.map.panTo(marker.position);
       this.$refs.mapContainer.scrollIntoView();
-      this.infoContent = marker.infoText;
-      this.infoSubContent = marker.infoSubText;
-      this.mapLink = marker.mapLink;
-      this.webLink = marker.webLink;
-      this.business = marker.business;
+      this.infoContent = marker.street;
+      this.infoSubContent = marker.address;
+      this.map_url = marker.map_url;
+      this.web_url = marker.web_url;
+      this.business_name = marker.business_name;
       if (this.currentMidx == idx) {
         this.infoWinOpen = !this.infoWinOpen;
       } else {

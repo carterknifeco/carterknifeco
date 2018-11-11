@@ -22670,7 +22670,7 @@ const About = resolve => {
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 const Knives = resolve => {
-  __webpack_require__.e/* require.ensure */(1).then((() => {
+  __webpack_require__.e/* require.ensure */(0).then((() => {
     resolve(__webpack_require__(166));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
@@ -22685,7 +22685,7 @@ const Process = resolve => {
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 const Local = resolve => {
-  __webpack_require__.e/* require.ensure */(2).then((() => {
+  __webpack_require__.e/* require.ensure */(1).then((() => {
     resolve(__webpack_require__(168));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
@@ -22695,7 +22695,7 @@ const Privacy = resolve => {
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 const Build = resolve => {
-  __webpack_require__.e/* require.ensure */(0).then((() => {
+  __webpack_require__.e/* require.ensure */(2).then((() => {
     resolve(__webpack_require__(165));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };

@@ -126,6 +126,23 @@ knives:
     for_sale: true
     price: '260'
     video_url:
+local_sellers:
+  - position:
+      lat: 44.0508424
+      lng: -121.3125494
+    map_url: https://goo.gl/maps/tggfvP6J24u
+    web_url: https://spokenmoto.com/
+    business_name: Spoken Moto
+    street: 310 SW Industrial Way
+    address: Bend, OR 97702
+  - position:
+      lat: 44.369298
+      lng: -121.344898
+    map_url: https://goo.gl/maps/zL84wj7WE2q
+    web_url: http://www.rainshadoworganics.com/
+    business_name: Rainshadow Organics Country Store
+    street: 71290 Holmes Road
+    address: Sisters, Oregon 97759
 custom_knives:
   price: $420
   build_options:
