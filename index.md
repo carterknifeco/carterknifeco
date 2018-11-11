@@ -88,43 +88,5 @@ knives:
     for_sale: false
     price:
     video_url:
-  - images:
-      - image_path: /uploads/20180709-114726-2.jpg
-    description_text: >-
-      8 inch bowie style blade in D2 steel dressed with figured walnut and
-      brass.
-    for_sale: true
-    price: '260'
-    video_url:
-  - images:
-      - image_path: /uploads/20180709-114109-3.jpg
-    description_text: >-
-      7 1/2 inch total drop point blade in D2 steel dressed with maple burl and
-      nickel silver
-    for_sale: true
-    price: '280'
-    video_url:
-  - images:
-      - image_path: /uploads/img-20180812-135655-908.jpg
-    description_text: >-
-      8 inch total drop point blade in 1084 steel dressed with ironwood and
-      brass
-    for_sale: true
-    price: '280'
-    video_url:
-  - images:
-      - image_path: /uploads/img-20180812-135317-706.jpg
-    description_text: 8 inch total drop point blade in 1084 steel dressed with antler and copper
-    for_sale: true
-    price: '340'
-    video_url:
-  - images:
-      - image_path: /uploads/img-20180812-135142-891.jpg
-    description_text: >-
-      7 1/2 inch total drop point blade in D2 steel dressed with black ash and
-      brass.
-    for_sale: true
-    price: '260'
-    video_url:
 ---
 
