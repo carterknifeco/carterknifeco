@@ -136,7 +136,7 @@ local_sellers:
     street: 71290 Holmes Road
     address: 'Sisters, Oregon 97759'
 custom_knives:
-  price: $420
+  price: $360
   build_options:
     - title: Blade Shape
       options:
@@ -148,16 +148,6 @@ custom_knives:
           image_path: /uploads/Bowie.jpg
         - title: Boot Knife
           image_path: /uploads/Boot Knife.jpg
-    - title: Finish Style
-      options:
-        - title: Rough Grind
-          image_path: /uploads/Rough Grind.jpg
-        - title: Forge Mark
-          image_path: /uploads/Forge Mark.jpg
-        - title: Grey Etched
-          image_path: /uploads/Grey Etched.jpg
-        - title: Buffed Grind
-          image_path: /uploads/Buffed Grind.jpg
     - title: Blade Length
       options:
         - title: Medium (4 - 4.25”)
