@@ -136,11 +136,11 @@ local_sellers:
     street: 71290 Holmes Road
     address: 'Sisters, Oregon 97759'
   - position:
-      lat:
-      lng:
+      lat: 44.059506
+      lng: -121.313806
     map_url: 'https://goo.gl/maps/LHs9eE1QSUPX8zeMA'
-    web_url:
-    business_name: Revolvr Mens
+    web_url: 'http://www.revolvrmens.com/'
+    business_name: Revolvr Menswear
     street: 945 NW Wall St
     address: 'Bend, OR 97703'
 custom_knives:
