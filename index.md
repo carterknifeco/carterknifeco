@@ -135,6 +135,14 @@ local_sellers:
     business_name: Rainshadow Organics Country Store
     street: 71290 Holmes Road
     address: 'Sisters, Oregon 97759'
+  - position:
+      lat:
+      lng:
+    map_url:
+    web_url:
+    business_name: Revolvr Mens
+    street:
+    address: '945 NW Wall St, Bend, OR 97703'
 custom_knives:
   price: $360
   build_options:
