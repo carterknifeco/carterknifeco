@@ -138,11 +138,11 @@ local_sellers:
   - position:
       lat:
       lng:
-    map_url:
+    map_url: 'https://goo.gl/maps/LHs9eE1QSUPX8zeMA'
     web_url:
     business_name: Revolvr Mens
-    street:
-    address: '945 NW Wall St, Bend, OR 97703'
+    street: 945 NW Wall St
+    address: 'Bend, OR 97703'
 custom_knives:
   price: $360
   build_options:
