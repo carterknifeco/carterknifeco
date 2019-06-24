@@ -92,8 +92,10 @@ knives:
     price:
     video_url:
   - images:
-      - image_path:
-    description_text:
+      - image_path: /uploads/IMG_20190514_140334_892.jpg
+    description_text: >-
+      6 inch kitchen knife with differential tempering in the blade, dressed in
+      Mexican Kingwood.
     for_sale: false
     price:
     video_url:
