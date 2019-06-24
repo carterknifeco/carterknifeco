@@ -58,14 +58,6 @@ knives:
     price:
     video_url:
   - images:
-      - image_path: /uploads/4a.jpg
-    description_text: >-
-      Ironwood handle with nickel silver guard and pins. The blade is the
-      fighter style shape made from D2 steel.
-    for_sale: false
-    price:
-    video_url:
-  - images:
       - image_path: /uploads/3a.jpg
     description_text: Four D2 steel knife bevels
     for_sale: false
@@ -87,22 +79,6 @@ knives:
       style shape made from 1084 with a differential tempering line (hamon).
     for_sale: false
     price:
-    video_url:
-  - images:
-      - image_path: /uploads/20180709-114726-2.jpg
-    description_text: >-
-      8 inch bowie style blade in D2 steel dressed with figured walnut and
-      brass.
-    for_sale: false
-    price: '260'
-    video_url:
-  - images:
-      - image_path: /uploads/20180709-114109-3.jpg
-    description_text: >-
-      7 1/2 inch total drop point blade in D2 steel dressed with maple burl and
-      nickel silver
-    for_sale: false
-    price: '280'
     video_url:
   - images:
       - image_path: /uploads/img-20180812-135655-908.jpg
