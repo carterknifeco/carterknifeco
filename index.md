@@ -85,6 +85,18 @@ knives:
     for_sale: false
     price: '340'
     video_url:
+  - images:
+      - image_path: /uploads/IMG_20190611_104928_189.jpg
+    description_text: thats a handful !
+    for_sale: false
+    price:
+    video_url:
+  - images:
+      - image_path:
+    description_text:
+    for_sale: false
+    price:
+    video_url:
 local_sellers:
   - position:
       lat: 44.0508424
