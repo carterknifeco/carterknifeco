@@ -1,15 +1,6 @@
 ---
 knives:
   - images:
-      - image_path: /uploads/12a.jpg
-    description_text: >-
-      Resin casted california buckeye handle with nickel silver guard and pins.
-      The blade is a bowie made from 1084 with a differential tempering line
-      (Hamon).
-    for_sale: false
-    price:
-    video_url:
-  - images:
       - image_path: /uploads/11a.jpg
     description_text: Ironwood handled knife after being used to field dress an elk
     for_sale: false
