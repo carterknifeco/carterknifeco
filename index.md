@@ -15,14 +15,6 @@ knives:
     price:
     video_url:
   - images:
-      - image_path: /uploads/9a.jpg
-    description_text: >-
-      A batch of knives that have been rough shaped and hand sanded to 120 grit.
-      These still need finished and oiled.
-    for_sale: false
-    price:
-    video_url:
-  - images:
       - image_path: /uploads/8a.jpg
     description_text: Honduran rosewood handle
     for_sale: false
